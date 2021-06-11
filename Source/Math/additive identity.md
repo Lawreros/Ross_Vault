@@ -1,6 +1,6 @@
-[[0000 To Be Assigned]] | [[MOC]]
+Parent : [[0101 Vector Spaces]]
 name : additive identity
-tags : tag1, tag2
+tags : 
 backlinks : 
 source : [[Linear Algebra Done Right]]
 

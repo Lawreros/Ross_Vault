@@ -1,11 +1,13 @@
-[[0000 To Be Assigned]] | [[MOC]]
-name : 
-tags : tag1, tag2
+Parent : [[0000 To Be Assigned]]
+name : {{title}}
+tags : 
 backlinks : 
 source : 
 
 ###### Content:
+Simple definitions
 
-
+###### Properties:
+Unique relationships/properties
 
 ###### Additional Thoughts:

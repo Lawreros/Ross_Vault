@@ -1,0 +1,22 @@
+Parent : [[0000 To Be Assigned]]
+name : vector space
+tags : 
+backlinks : 
+source : [[Linear Algebra Done Right]]
+
+###### Content:
+A vector space is a set $V$ along with an addition on $V$ and a scalar multiplication on $V$ such that the following properties hold:
+- [[commutativity]]
+- [[associativity]]
+- [[additive identity]]
+- [[additive inverse]]
+- [[multiplicative inverse]]
+- [[distributive property]]
+
+###### Properties:
+- A vector space over **R** is called a [[real vector space]]
+- A vector space over **C** is called a [[complex vector space]]
+- A vector space has a unique [[additive identity]]
+- Every element in a vector space has a unique [[additive inverse]]
+
+###### Additional Thoughts:
