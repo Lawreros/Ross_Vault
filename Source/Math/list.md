@@ -1,4 +1,3 @@
-Parent : [[0000 To Be Assigned]]
 name : list
 tags : 
 backlinks : 

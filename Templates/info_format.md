@@ -1,4 +1,4 @@
-Parent : [[0000 To Be Assigned]]
+Parent : [[0001 To Be Assigned]]
 name : {{title}}
 tags : 
 backlinks : 

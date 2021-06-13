@@ -1,4 +1,3 @@
-Parent : [[0101 Vector Spaces]]
 name : associativity
 tags : 
 backlinks : 

@@ -1,6 +1,5 @@
-Parent : [[0000 To Be Assigned]]
 name : subspace
-tags : 
+tags : #important
 backlinks : 
 source : [[Linear Algebra Done Right]]
 

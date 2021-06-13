@@ -1,4 +1,3 @@
-Parent : [[0000 To Be Assigned]]
 name : direct sum
 tags : 
 backlinks : 
@@ -17,7 +16,7 @@ Suppose $U_1,...,U_m$ are [[subspace]]s of $V$. Then $U_1+...+U_m$ is a direct s
 Suppose $U$ and $W$ are subspaces of $V$. Then $U+W$ is a direct sum if and only if $U \bigcap W = \{0\}$
 
 ###### Properties:
-- [[Sum of subspaces]] are analogous to unions of subsets. Similarly, direct sums of subspaces are analogous to disjoint unions of subsets.
+- [[sum of subspaces]] are analogous to unions of subsets. Similarly, direct sums of subspaces are analogous to disjoint unions of subsets.
 - No two subspaces of a vector space can be disjoint, because both contain 0
 
 ###### Additional Thoughts:

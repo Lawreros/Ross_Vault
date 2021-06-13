@@ -1,4 +1,3 @@
-Parent : [[0101 Vector Spaces]]
 name : distributive property
 tags : 
 backlinks : 
