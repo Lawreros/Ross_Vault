@@ -22,10 +22,10 @@ inspo : https://www.youtube.com/watch?v=1eUxQo6Dy7k
 
 
 ### Concepts to Investigate
-* [[Procrustes problem]]
-* [[Spearman's rank correlation]]
-* [[vector embedding]]
-* [[linear regression]]
+* Procrustes problem
+* Spearman's rank correlation
+* vector embedding
+* linear regression
 	* Multivariate linear regression
 * Parsimonious interpretation
 * Bayes' Risk

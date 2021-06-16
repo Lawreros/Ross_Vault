@@ -8,7 +8,9 @@ Associated Tags:
 
 #### Medical Imaging
 - [[MRI]]
-
+- [[PET]]
+- [[X-ray]]
+- [[ultrasound]]
 
 #### Medical Image Analysis
 

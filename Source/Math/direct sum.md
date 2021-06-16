@@ -17,6 +17,6 @@ Suppose $U$ and $W$ are subspaces of $V$. Then $U+W$ is a direct sum if and only
 
 ###### Properties:
 - [[sum of subspaces]] are analogous to unions of subsets. Similarly, direct sums of subspaces are analogous to disjoint unions of subsets.
-- No two subspaces of a vector space can be disjoint, because both contain 0
+- No two subspaces of a [[vector space]] can be disjoint, because both contain 0
 
 ###### Additional Thoughts:

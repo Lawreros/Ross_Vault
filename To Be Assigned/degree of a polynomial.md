@@ -1,4 +1,4 @@
-name : degree of a polynomial, $deg p$
+name : degree of a polynomial, deg $p$
 tags : 
 backlinks : 
 source : [[Linear Algebra Done Right]]
