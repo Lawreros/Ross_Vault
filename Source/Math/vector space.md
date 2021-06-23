@@ -9,7 +9,7 @@ A vector space is a set $V$ along with an addition on $V$ and a scalar multiplic
 - [[associativity]]
 - [[additive identity]]
 - [[additive inverse]]
-- [[multiplicative inverse]]
+- [[multiplicative identity]]
 - [[distributive property]]
 
 ###### Properties:

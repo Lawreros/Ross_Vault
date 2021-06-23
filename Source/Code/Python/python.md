@@ -1,15 +1,23 @@
-# 0300 Coding MOC
+# python
 Brief Summary
 
 Associated Tags: 
 
-#### Languages
-- [[Rust]]
-- [[python]]
+#### Installation/Versioning
+- 
 
-
-#### Category 2
+#### Common Concepts
 - important sub links
+
+#### Common Concepts
+
+
+#### Organizational Techniques
+
+
+#### Third Party Libraries/functions
+- pytorch
+- kernas
 
 
 ## Topics to Investigate

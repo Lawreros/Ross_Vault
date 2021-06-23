@@ -9,6 +9,7 @@ Associated Tags:
 #### Medical Imaging
 - [[MRI]]
 - [[PET]]
+- Simultaneous [[MR-PET]]
 - [[X-ray]]
 - [[ultrasound]]
 
