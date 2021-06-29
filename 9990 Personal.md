@@ -11,6 +11,9 @@ Associated Tags:
 - [[poster presentations]]
 - [[Awards]]
 
+#### Other
+- [[car accident protocol]]
+- [[June 27 2021 accident]]
 
 ## Topics to Investigate
 This is where you make a bunch of empty links for things that you have heard about but haven't fully investigated

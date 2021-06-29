@@ -15,12 +15,13 @@ All things related to the `cargo` build system and package manager:
 - [[cargo build]]
 - [[cargo run]]
 - [[cargo check]]
+- [[cargo doc]]
 
 
 #### Common Concepts
 Generally all things important to knowing how to code in Rust:
 - [[variables (rust)]]
-- [[data types (rust)]]
+- [[data types (Rust)]]
 - [[functions (rust)]]
 - [[control flow (rust)]]
 

@@ -10,6 +10,7 @@ Associated Tags:
 - [[MRI]]
 - [[PET]]
 - Simultaneous [[MR-PET]]
+- [[fNIRS]]
 - [[X-ray]]
 - [[ultrasound]]
 
