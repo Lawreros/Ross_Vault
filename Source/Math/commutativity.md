@@ -1,7 +1,7 @@
 name : commutativity
 tags : 
 backlinks : 
-source : [[Linear Algebra Done Right]]
+source : #LADR
 
 ###### Content:
 A property which states that the order which you add/multiply does not effect the result.

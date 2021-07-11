@@ -1,7 +1,7 @@
 name : range
 tags : 
 backlinks : [[linear map]]
-source : [[Linear Algebra Done Right]]
+source : #LADR
 
 ###### Content:
 For $T$ a function from $V$ to $W$, the range of $T$ is the subset of $W$ consisting of those vectors that are of the form $Tv$ for some $v \in V$:

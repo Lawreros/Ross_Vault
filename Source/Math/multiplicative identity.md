@@ -1,7 +1,7 @@
 name : multiplicative identity
 tags : 
 backlinks : 
-source : [[Linear Algebra Done Right]]
+source : #LADR
 
 ###### Content:
 An entity which you can multiply with an entity in order to get the same value.

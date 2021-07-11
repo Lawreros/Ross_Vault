@@ -1,7 +1,7 @@
 name : infinite-dimensional vector space
 tags : 
 backlinks : 
-source : [[Linear Algebra Done Right]]
+source : #LADR
 
 ###### Content:
 A [[vector space]] is called infinite-dimensional if it is not a [[finite-dimensional vector space]]

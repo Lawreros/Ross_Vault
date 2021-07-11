@@ -1,7 +1,7 @@
 name : matrix addition
 tags : 
 backlinks : 
-source : [[Linear Algebra Done Right]]
+source : #LADR
 
 ###### Content:
 The sum of two matrices of the same size is the [[matrix]] obtained by adding the corresponding entries in the matrices:

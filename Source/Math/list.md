@@ -1,7 +1,7 @@
 name : list
 tags : 
 backlinks : 
-source : [[Linear Algebra Done Right]]
+source : #LADR
 
 ###### Content:
 A list of length $n$ is an **ordered** collection of $n$ elements (which might be numbers, other lists, or more abstract entites) separated by commas and surrounded by parentheses. A list of length $n$ looks like this: $$(x_1,...,x_n)$$

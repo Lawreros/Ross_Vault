@@ -1,7 +1,7 @@
 name : basis
 tags : 
 backlinks : 
-source : [[Linear Algebra Done Right]]
+source : #LADR 
 
 ###### Content:
 A basis of $V$ is a list of vectors in $V$ that is [[linearly independent]] and [[span]]s $V$.

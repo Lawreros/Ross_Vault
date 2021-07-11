@@ -1,7 +1,7 @@
 name : associativity
 tags : 
 backlinks : 
-source : [[Linear Algebra Done Right]]
+source : #LADR
 
 ###### Content:
 A property which states that the placement of parenthesis in a given equation does not change the resulting calculation.

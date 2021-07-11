@@ -1,7 +1,7 @@
 name : injective
 tags : 
 backlinks : [[linear map]]
-source : [[Linear Algebra Done Right]]
+source : #LADR
 
 ###### Content:
 A function $T : V \rightarrow W$ is called injective if $Tu = Tv$ implies $u = v$. In other words, $T$ is injective if it maps distinct inputs to distinct outputs.

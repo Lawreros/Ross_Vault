@@ -1,7 +1,7 @@
 name : direct sum
 tags : 
 backlinks : 
-source : [[Linear Algebra Done Right]]
+source : #LADR
 
 ###### Content:
 **Definition:**

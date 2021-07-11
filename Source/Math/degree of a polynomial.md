@@ -1,7 +1,7 @@
 name : degree of a polynomial, deg $p$
 tags : 
 backlinks : 
-source : [[Linear Algebra Done Right]]
+source : #LADR 
 
 ###### Content:
 A polynomial $p \in \mathcal{P}(\textbf{F})$ is said to have degree $m$ if there exist scalars $a_0,a_1,...,a_m \in \textbf{F}$ with $a_m \neq 0$ such that:

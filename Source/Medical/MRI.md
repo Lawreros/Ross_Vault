@@ -1,4 +1,3 @@
-Parent : [[0000 ToDo]]
 name : MRI
 tags : #important 
 backlinks : 

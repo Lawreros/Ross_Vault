@@ -1,7 +1,7 @@
 name : additive inverse
 tags : 
 backlinks : 
-source : [[Linear Algebra Done Right]]
+source : #LADR 
 
 ###### Content:
 Some unique entity where, when added to another entity, results in 0.

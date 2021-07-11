@@ -1,7 +1,7 @@
 name : Fundamental Theorem of Linear Maps
 tags : #important 
 backlinks : [[dimension]]
-source : [[Linear Algebra Done Right]]
+source : #LADR
 
 ###### Content:
 Suppose $V$ is finite-dimensional and $T \in \mathcal{L}(V,W)$. Then [[range]] $T$ is finite-dimensional and:

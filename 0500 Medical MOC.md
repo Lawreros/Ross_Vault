@@ -10,12 +10,18 @@ Associated Tags:
 - [[MRI]]
 - [[PET]]
 - Simultaneous [[MR-PET]]
-- [[fNIRS]]
+- [[NIRS]]
 - [[X-ray]]
 - [[ultrasound]]
 
 #### Medical Image Analysis
+- 
 
+
+#### Resources
+- [[Templateflow]] is a repository of neuroimaging templates accessible for humans and machines, including spatial mappings across standard spaces
+- [[nibable]]
+- 
 
 ## Topics to Investigate
 This is where you make a bunch of empty links for things that you have heard about but haven't fully investigated

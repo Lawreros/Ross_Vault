@@ -1,7 +1,7 @@
 name : invertible
 tags : 
 backlinks : 
-source : [[Linear Algebra Done Right]]
+source : #LADR
 
 ###### Content:
 A linear map $T \in \mathcal{L}(V,W)$ is called invertible if there exists a [[linear map]] $S \in \mathcal{L}(W,V)$ such that $ST$ equals the [[identity map]] on $V$ and $TS$ equals the [[identity map]] on $W$.

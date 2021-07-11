@@ -1,7 +1,7 @@
 name : matrix multiplication
 tags : 
 backlinks : 
-source : [[Linear Algebra Done Right]]
+source : #LADR
 
 ###### Content:
 **Scalar multiplication of a matrix:**

@@ -1,7 +1,7 @@
 name : multiplicative inverse
 tags : 
 backlinks : 
-source : [[Linear Algebra Done Right]]
+source : #LADR
 
 ###### Content:
 An entity which, when multiplied with another entity, results in the value of 1.

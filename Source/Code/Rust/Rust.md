@@ -20,10 +20,10 @@ All things related to the `cargo` build system and package manager:
 
 #### Common Concepts
 Generally all things important to knowing how to code in Rust:
-- [[variables (rust)]]
-- [[data types (Rust)]]
-- [[functions (rust)]]
-- [[control flow (rust)]]
+- [[variables (Rust)]]
+- [[Data Types (Rust)]]
+- [[function (Rust)]]
+- [[control flow (Rust)]]
 
 
 #### Organizational Techniques

@@ -1,7 +1,7 @@
 name : distributive property
 tags : 
 backlinks : 
-source : [[Linear Algebra Done Right]]
+source : #LADR
 
 ###### Content:
 Properties which state that multiplication of a scalar through the use of parenthesis results in the scalar being "distributed" to the contents of the parenthesis.

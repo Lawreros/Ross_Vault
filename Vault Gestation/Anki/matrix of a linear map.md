@@ -1,7 +1,7 @@
 name : matrix of a [[linear map]] $\mathcal{M}(T)$
 tags : 
 backlinks : 
-source : [[Linear Algebra Done Right]]
+source : #LADR
 
 ###### Content:
 Suppose $T \in \mathcal{L}(V,W)$ and $v_1,...,v_n$ is a [[basis]] of $V$ and $w_1,...,w_m$ is a basis of $W$. The [[matrix]] of $T$ with respect to these bases is the $m$-by-$n$ matrix $\mathcal{M}(T)$ whose entries $A_{j,k}$ are defined by:

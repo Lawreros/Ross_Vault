@@ -1,7 +1,7 @@
 name : quotient space, $V/U$
 tags : 
 backlinks : 
-source : [[Linear Algebra Done Right]]
+source : #LADR
 
 ###### Content:
 Suppose $v \in V$ and $U$ is a subspace of $V$. Then $v+U$ is a subset of $V$ defined by $v+U = \{v+u: u\in U\}$. Then the quotient space $V/U$ is the set of all [[affine subset]]s of $V$ parallel to $U$. In other words, $$V/U = \{v+U:v \in V\}$$

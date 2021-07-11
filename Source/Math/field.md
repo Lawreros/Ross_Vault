@@ -1,7 +1,7 @@
 name : field
 tags : 
 backlinks : 
-source : [[Linear Algebra Done Right]]
+source : #LADR
 
 ###### Content:
 A field is a [[set]] containing at least two distinct elements called 0 and 1, along with operations of addition and multiplication following the following properties:

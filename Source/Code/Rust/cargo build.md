@@ -1,7 +1,7 @@
 name : cargo build
 tags : 
 backlinks : 
-source : [[The Rust Programming Language]]
+source : #TRPL 
 
 ###### Content:
 Builds the project you are currently in by entering the following command:

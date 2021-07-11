@@ -1,7 +1,7 @@
 name : additive identity
 tags : 
 backlinks : 
-source : [[Linear Algebra Done Right]]
+source : #LADR
 
 ###### Content:
 An entity that you can add to an existing entity in order to get the same value. With respect to scalar numbers:

@@ -1,7 +1,7 @@
 name : span (sometimes called "linear span")
 tags : 
 backlinks : 
-source : [[Linear Algebra Done Right]]
+source : #LADR
 
 ###### Content:
 The set of all [[linear combination]]s of a list of vectors $v_1,...,v_m$ in $V$ is called the span of $v_1,...,v_m$, denoted $span(v_1,...,v_m)$. In other words:

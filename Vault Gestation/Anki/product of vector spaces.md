@@ -1,7 +1,7 @@
 name : product of vector spaces
 tags : 
 backlinks : 
-source : [[Linear Algebra Done Right]]
+source : #LADR
 
 ###### Content:
 Suppose $V_1,...,V_m$ are [[vector space]]s over $\textbf{F}$

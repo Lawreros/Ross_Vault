@@ -1,7 +1,7 @@
 name : matrix
 tags : #important
 backlinks : 
-source : [[Linear Algebra Done Right]]
+source : #LADR
 
 ###### Content:
 Let $m$ and $n$ denote positive integers. An $m$-by-$n$ matrix $A$ is a rectangular array of elements of **F** with $m$ rows and $n$ columns:

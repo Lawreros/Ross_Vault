@@ -1,17 +1,48 @@
 # 0200 ML MOC
-Brief Summary
+Machine Learning is the science (and art) of programming computers so they can learn from data.
 
 Associated Tags: 
 
-#### Neural Network
-- important sub links
+#### Common Concepts
+- [[batch learning]]
+- [[online learning]]
+- [[instance-based learning]]
+- [[model-based learning]]
 
 
-#### Category 2
-- important sub links
+#### Supervised Learning ([[supervised learning]])
+In supervised learning, the training data you feed the algorithm includes the desired solutions, called *labels*:
+- k-nearest neighbors
+- linear regression
+- logistic regression
+- support vector machines (SVMs)
+- decision tree and random forest
+- neural networks
+
+#### Unsupervised Learning ([[unsupervised learning]])
+In unsupervised learning, the training data is unlabeled, causing the system to try a learn without a teacher.
+- Clustering:
+		- K-means
+		- DBSCAN
+		- hierarchical clustering analysis (HCA)
+- Anomaly detection and novelty detection
+		- one-class SVM
+		- isolation forest
+- Visualization and dimensionality reduction
+		- principal component analysis (PCA)
+		- kernel PCA
+		- locally-linear embedding (LLE)
+		- t-distributed stochastic neighbor embedding (t-SNE)
+- Association rule learning
+		- Apriori
+		- Eclat
+
+#### Semisupervised learning ([[semisupervised learning]])
+Algorithms that can deal with partially labeled training data, usually a lot of unlabeled data and a little bit of labeled data.
+-	deep belief networks (DBNs)
+-	restricted Boltzmann machines (RBMs)
 
 
 ## Topics to Investigate
 This is where you make a bunch of empty links for things that you have heard about but haven't fully investigated
-- topic number 1
-- topic number 2
+- 
