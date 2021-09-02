@@ -1,6 +1,6 @@
 name : dual map, $T'$
 tags : 
-backlinks : 
+backlinks : [[dual space]]
 source : #LADR 
 
 ###### Content:

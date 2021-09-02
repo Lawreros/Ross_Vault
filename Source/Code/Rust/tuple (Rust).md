@@ -28,6 +28,6 @@ fn main() {
 
 ###### Properties:
 - The first index in a tuple is the `0` position
-- Stored in the [[heap (rust)]] instead of the [[stack (Rust)]]
+- Stored in the [[heap (Rust)]] instead of the [[stack (Rust)]]
 
 ###### Additional Thoughts:

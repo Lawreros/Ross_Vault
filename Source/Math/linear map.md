@@ -1,6 +1,6 @@
 name : linear map
 tags : #important 
-backlinks : 
+backlinks : [[linear transformation]]
 source : #LADR
 
 ###### Content:

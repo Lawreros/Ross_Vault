@@ -1,8 +1,6 @@
 # 9999 The stack
 Where longer-term things are linked to before finding their home. For notes that take more than one sitting to write, like publications.
 
-Associated Tags: 
-
 #### Ready for departure
 Notes in here are waiting for placement and any additional linking that may still need to be added.
 - [[Rich-club in the brain's macrostructure. Insights from graph theoretical analysis]]
@@ -11,6 +9,7 @@ Notes in here are waiting for placement and any additional linking that may stil
 #### 1-2 hours left
 Notes that are still having content added to them, but aren't that far from being done.
 - [[Test-Retest Reliability of Graph Theory Measures of Structural Brain Connectivity]]
+- [[Louvain method for community detection]] (https://en.wikipedia.org/wiki/Louvain_method)
 
 ---
 #### 3+ hours left

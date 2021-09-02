@@ -4,7 +4,7 @@ backlinks :
 source : #LADR
 
 ###### Content:
-Let $m$ and $n$ denote positive integers. An $m$-by-$n$ matrix $A$ is a rectangular array of elements of **F** with $m$ rows and $n$ columns:
+Let $m$ and $n$ denote positive integers. An $m$-by-$n$ matrix $A$ is a rectangular array of elements of [[field]] **F** with $m$ rows and $n$ columns:
 $$A = \begin{bmatrix}
 A_{1,1} & \dots & A_{1,n} \\
 \vdots & & \vdots\\
