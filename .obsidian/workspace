@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "16fd3b5efab072f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "227b4ff1a774bf4d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Diary/2021-08-30.md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "050295fb308ba3ea",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "convex set.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "4491d7cf1d16f159",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Vault Gestation/Anki/upper-triangular matrix.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "e190c1aa5c0e3a2c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "objective function.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e2195d374838da64",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4001570b63acd8d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ad5cafdf6c8ec07",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "11ef39415a78b602",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 252
+  },
+  "right": {
+    "id": "e38beb8798b8f1f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6b43732ce32f4a4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "06db9d0f49e47b28",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Vault Gestation/Anki/upper-triangular matrix.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "aace242f5256f6b9",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "f028a8899bece249",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "4491d7cf1d16f159",
+  "lastOpenFiles": [
+    "Vault Gestation/Anki/upper-triangular matrix.md",
+    "Vault Gestation/Anki/skew Hermitian.md",
+    "Vault Gestation/Anki/essentially Hermitian.md",
+    "Vault Gestation/Anki/factor.md",
+    "Vault Gestation/Anki/adjoint.md",
+    "Vault Gestation/Anki/rank-nullity theorem.md",
+    "2021-09-02.md",
+    "objective function.md",
+    "Diary/2021-08-24.md",
+    "Diary/2021-08-25.md"
+  ]
+}

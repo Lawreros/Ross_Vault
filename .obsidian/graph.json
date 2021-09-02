@@ -1,0 +1,58 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "HOML",
+      "color": {
+        "a": 1,
+        "rgb": 5526240
+      }
+    },
+    {
+      "query": "9999",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "LADR",
+      "color": {
+        "a": 1,
+        "rgb": 14518408
+      }
+    },
+    {
+      "query": "rust",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "Personal",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -1.4,
+  "nodeSizeMultiplier": 1.02136752136752,
+  "lineSizeMultiplier": 0.97948717948718,
+  "collapse-forces": false,
+  "centerStrength": 0.264957264957265,
+  "repelStrength": 13.3333333333333,
+  "linkStrength": 1,
+  "linkDistance": 253,
+  "scale": 0.048547070282328755,
+  "close": false
+}
