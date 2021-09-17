@@ -4,45 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "227b4ff1a774bf4d",
+        "id": "4423b5ec52acf1d6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Diary/2021-08-30.md",
-            "mode": "preview"
-          }
-        }
-      },
-      {
-        "id": "050295fb308ba3ea",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "convex set.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "4491d7cf1d16f159",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Vault Gestation/Anki/upper-triangular matrix.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "e190c1aa5c0e3a2c",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "objective function.md",
+            "file": "Source/Math/Reduced Row Echelon Form.md",
             "mode": "source"
           }
         }
@@ -101,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vault Gestation/Anki/upper-triangular matrix.md",
+                "file": "Source/Math/Reduced Row Echelon Form.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,17 +103,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4491d7cf1d16f159",
+  "active": "4423b5ec52acf1d6",
   "lastOpenFiles": [
-    "Vault Gestation/Anki/upper-triangular matrix.md",
-    "Vault Gestation/Anki/skew Hermitian.md",
-    "Vault Gestation/Anki/essentially Hermitian.md",
-    "Vault Gestation/Anki/factor.md",
-    "Vault Gestation/Anki/adjoint.md",
-    "Vault Gestation/Anki/rank-nullity theorem.md",
-    "2021-09-02.md",
-    "objective function.md",
-    "Diary/2021-08-24.md",
-    "Diary/2021-08-25.md"
+    "Vault Gestation/Math/Reduced Row Echelon Form.md",
+    "Vault Gestation/Math/Laplace expansion.md",
+    "Vault Gestation/Math/determinant.md",
+    "Vault Gestation/Math/restriction operator.md",
+    "Vault Gestation/Math/Gram-Schmidt Procedure.md",
+    "Vault Gestation/Math/orthogonal decomposition.md",
+    "Vault Gestation/Math/Fundamental Theorem of Algebra.md",
+    "Vault Gestation/Math/orthogonal projection.md",
+    "Vault Gestation/Math/orthonormal basis.md",
+    "Vault Gestation/Math/upper-triangular matrix.md"
   ]
 }
