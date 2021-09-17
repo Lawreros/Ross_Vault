@@ -5,7 +5,7 @@ source : #LADR
 
 ###### Content:
 Suppose $V_1,...,V_m$ are [[vector space]]s over $\textbf{F}$
-- The product $V_1\times...\times V_m$ is defined by $V_1\times...\times V_m = \{v_1,...,v_m):v_1 \in V_1,...,v_m\in V_m\}$
+- The product $V_1\times...\times V_m$ is defined by $V_1\times...\times V_m = \{(v_1,...,v_m):v_1 \in V_1,...,v_m\in V_m\}$
 - Addition on $V_1\times ...\times V_m$ is defined by $(u_1,...,u_m)+(v_1,...,v_m)=(u_1+v_1,...,u_m+v_m)$
 - Scalar multiplication on $V_1\times...\times V_m$ is defined by $\lambda(v_1,...,v_m)=(\lambda v_1,...,\lambda v_m)$
 

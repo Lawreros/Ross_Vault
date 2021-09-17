@@ -1,4 +1,4 @@
-name : conjugate transpose, adjoint or Hermitian adjoint
+name : conjugate transpose, [[adjoint]], or Hermitian adjoint
 tags : 
 backlinks : 
 source : #MASED 

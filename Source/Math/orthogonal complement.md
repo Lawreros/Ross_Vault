@@ -16,6 +16,6 @@ If $U$ is a [[subset]] of [[inner product space]] $V$, then the orthogonal compl
 ###### Properties:
 - [[direct sum]] of a subspace and its orthogonal complement. Suppose $U$ is a finite-dimensional subspace of $V$. Then $V = U \oplus U^\perp$.
 - [[dimension]] of the orthogonal complement. Suppose $V$ is finite-dimensional and $U$ is a subspace of $V$. Then $\text{dim }U^\perp = \text{dim }V - \text{dim }U$.
-- The orthogonal complement of the orthogonal complement. Suppose $U$ is a finite-dimensional subspace of $V$. Then $U  = (U^\perp)^\perp$.
+- The orthogonal complement of the orthogonal complement. Suppose $U$ is a [[finite-dimensional subspace]] of $V$. Then $U  = (U^\perp)^\perp$.
 
 ###### Additional Thoughts:

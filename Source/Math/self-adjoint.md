@@ -1,6 +1,6 @@
 name : self-adjoint
 tags : 
-backlinks : 
+backlinks : [[conjugate transpose]]
 source : #LADR 
 
 ###### Content:

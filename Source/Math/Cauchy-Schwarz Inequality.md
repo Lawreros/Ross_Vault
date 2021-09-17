@@ -1,4 +1,4 @@
-name : Cauchy-Schwarz Inequality
+name : Cauchy-Schwarz Inequality, triangular inequality
 tags : 
 backlinks : [[norm]]
 source : #LADR 
