@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "4423b5ec52acf1d6",
+        "id": "10cb28787b7180dd",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Source/Math/Reduced Row Echelon Form.md",
+            "file": "Source/Math/general linear group.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Source/Math/Reduced Row Echelon Form.md",
+                "file": "Source/Math/general linear group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,17 +103,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4423b5ec52acf1d6",
+  "active": "10cb28787b7180dd",
   "lastOpenFiles": [
-    "Vault Gestation/Math/Reduced Row Echelon Form.md",
+    "Vault Gestation/Math/general linear group.md",
+    "Vault Gestation/Math/trilinear interpolation.md",
+    "Vault Gestation/Math/permutation matrix.md",
     "Vault Gestation/Math/Laplace expansion.md",
-    "Vault Gestation/Math/determinant.md",
-    "Vault Gestation/Math/restriction operator.md",
-    "Vault Gestation/Math/Gram-Schmidt Procedure.md",
-    "Vault Gestation/Math/orthogonal decomposition.md",
-    "Vault Gestation/Math/Fundamental Theorem of Algebra.md",
-    "Vault Gestation/Math/orthogonal projection.md",
-    "Vault Gestation/Math/orthonormal basis.md",
-    "Vault Gestation/Math/upper-triangular matrix.md"
+    "Vault Gestation/Math/simultaneously diagonalizable.md",
+    "Vault Gestation/Math/spectrum.md",
+    "Vault Gestation/Math/nondegenerate.md",
+    "Vault Gestation/Math/singular.md",
+    "Vault Gestation/Math/nonsingular.md",
+    "Vault Gestation/Math/invertible matrix.md"
   ]
 }
