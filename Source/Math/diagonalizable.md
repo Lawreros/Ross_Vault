@@ -1,10 +1,12 @@
 name : diagonalizable
 tags : 
 backlinks : 
-source : #LADR
+source : #LADR , #MASED 
 
 ###### Content:
-An [[operator]] $T \in \mathcal{L}$ is called diagonalizable if the operator has a [[diagonal matrix]] with respect to some [[basis]] of $V$
+An [[operator]] $T \in \mathcal{L}$ is called diagonalizable if the operator has a [[diagonal matrix]] with respect to some [[basis]] of $V$.
+
+If $T \in M_n$ is [[similar]] to a [[diagonal matrix]], then $A$ is said to be diagonalizable.
 
 ###### Properties:
 - Conditions equivalent to diagonalizability. Suppose $V$ is finite-dimensional and $T \in \mathcal{L}(V)$. Let $\lambda_1,...,\lambda_m$ denote the distinct [[eigenvalue]]s of $T$. Then the following are equivalent:

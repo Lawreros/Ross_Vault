@@ -7,6 +7,6 @@ source : #MASED
  $A \in M_{n}(\textbf{F})$ is said to be Hermitian if $A^* = A$
 
 ###### Properties:
-
+- Every Hermitian is [[normal]]
 
 ###### Additional Thoughts:
