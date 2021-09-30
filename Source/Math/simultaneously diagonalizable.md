@@ -1,7 +1,7 @@
 name : simultaneously diagonalizable
 tags : 
 backlinks : 
-source : 
+source : #MASED 
 
 ###### Content:
 A set of matrices is said to be simultaneously [[diagonalizable]] if there exists a single [[invertible matrix]] $S$ such that $S^{-1}AS$ is a [[diagonal matrix]] for every $A$ in the set.
