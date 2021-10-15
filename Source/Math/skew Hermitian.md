@@ -6,7 +6,9 @@ source : #MASED
 ###### Content:
  $A \in M_{n}(\textbf{F})$ is said to be skew Hermitian if $A^* = -A$
 
-###### Properties:
+(see [[Hermitian]] for list of relationships)
 
+###### Properties:
+- Every skew-Hermitian is [[normal]]
 
 ###### Additional Thoughts:

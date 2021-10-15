@@ -1,7 +1,7 @@
 name : direct sum
 tags : 
 backlinks : 
-source : #LADR
+source : #LADR, #MASED 
 
 ###### Content:
 **Definition:**
@@ -18,5 +18,12 @@ Suppose $U$ and $W$ are subspaces of $V$. Then $U+W$ is a direct sum if and only
 ###### Properties:
 - [[sum of subspaces]] are analogous to unions of subsets. Similarly, direct sums of subspaces are analogous to disjoint unions of subsets.
 - No two subspaces of a [[vector space]] can be disjoint, because both contain 0
+- Let $B_1 \in M_n,..., B_d \in M_{n_d}$ be given and let $B$ be the direct sum $$B = \begin{bmatrix}
+B_1 & 0 & ... & 0\\
+0 & B_2 & ... & 0\\
+0 & 0 & ... & 0\\
+0 & 0 & ... & B_d\\
+\end{bmatrix} = B_1 \bigoplus ... \bigoplus B_d$$ Then $B$ is [[diagonalizable]] if and only if each of $B_1,...,B_d$ is [[diagonalizable]]
+
 
 ###### Additional Thoughts:

@@ -9,5 +9,6 @@ Synonymous  with being an [[invertible matrix]]. A linear transformation or matr
 ###### Properties:
 - If $A \in M_n(\textbf{F})$ is nonsingular, then $((A^{-1})^TA^T)^T = A(A^{-1})=I$, so $(A^{-1})^TA^T=I$, which means that $(A^{-1})^T=(A^T)^{-1} = A^{-T}$
 - If $A \in M_n(\textbf{C})$, then $(A^{-1})^*=(A^*)^{-1} = A^{-*}$
+- Let $A \in M_n$ be nonsingular. Then $A^{-1}$ is [[similar]] to $A^*$ if and only if there is a nonsingular $B \in M_n$ such that $A=B^{-1}B^*$
 
 ###### Additional Thoughts:

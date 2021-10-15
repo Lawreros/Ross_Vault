@@ -24,6 +24,6 @@ An $A\in M_n(\textbf{F})$ is invertible if there is a matrix $A^{-1} \in M_n(\te
 		- $Ax=b$ has a unique solution for each $b \in \textbf{F}^n$
 		- The only solution to $Ax=0$ is $x=0$
 		- 0 is not an [[eigenvalue]] of $A$
-- The product of two invertible matrices is invertible. $det(AB)=det(a)*det(B) \neq 0$
+- The product of two invertible matrices is invertible. $det(AB)=det(A)*det(B) \neq 0$
 
 ###### Additional Thoughts:
