@@ -12,7 +12,7 @@ A [[linear map]] from a [[vector space]] to itself is called an operator. The no
 		- $T$ is [[injective]]
 		- $T$ is [[surjective]]
 
-- Operators on [[complex vector space]]s have an [[eigenvalue]]. Every operator on a finite-dimensional, nonzero, complex vector space has an eigenvalue. (This may not be true for non-complex vector spaces, think rotation)
+- Operators on [[complex vector space]]s have an [[eigenvalue]]. Every operator on a finite-dimensional, nonzero, complex [[vector space]] has an eigenvalue. (This may not be true for non-complex vector spaces, think rotation)
 
 - Over $\textbf{C}$, every operator has an [[upper-triangular matrix]]. Suppose $V$ is a finite-dimensional complex vector space and $T \in \mathcal{L}(V)$. Then $T$ has an [[upper-triangular matrix]] with respect to some [[basis]] of $V$
 

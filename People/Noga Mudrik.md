@@ -1,4 +1,0 @@
-- Ph.D student from Tel Aviv
-- Jovo is not  main PI, believe it is Adam Charles
-- Interests in:
-		- Interaction between areas of the brain
