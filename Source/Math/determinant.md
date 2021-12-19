@@ -23,6 +23,7 @@ This can be expanded as an equation through [[Laplace expansion]]
 
 ###### Properties:
 - If $A$ has a row of zeros, then the determinant is zero
+- The det $A$ is the product of the [[eigenvalue]]s of $A$
 - det $A^T=$ det $A$ if $A \in M_n(\textbf{C})$ ([[transpose]])
 - det $A^*= \overline{detA}$ if $A \in M_n(\textbf{C})$ ([[conjugate transpose]])
 - det $AB$ = det $A$ det $B$

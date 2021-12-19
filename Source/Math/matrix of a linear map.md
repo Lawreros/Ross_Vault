@@ -8,7 +8,7 @@ Suppose $T \in \mathcal{L}(V,W)$ and $v_1,...,v_n$ is a [[basis]] of $V$ and $w_
 $$Tv_k=A_{1,k}w_1+...+A_{m,k}w_m$$
 If the bases are not clear from the context, then the notation $\mathcal{M}(T,v_1,...,v_n),(w_1,...,w_m))$ is used.
 
-To remember how $\mathcal{M}(T)$ is constructed from $T$, you might write across the top of the matrix the basis vectors $v_1,...,v_n$ for the domain and along the left the basis vectors $w_1,...,w_m$ for the vector space into which $T$ maps:
+To remember how $\mathcal{M}(T)$ is constructed from $T$, you might write across the top of the matrix the basis vectors $v_1,...,v_n$ for the domain and along the left the basis vectors $w_1,...,w_m$ for the [[vector space]] into which $T$ maps:
 
 $$
 \mathcal{M}(T) = \begin{matrix}
