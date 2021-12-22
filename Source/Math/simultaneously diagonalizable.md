@@ -12,6 +12,6 @@ $$B=SD_2S^{-1}$$
 Then $A$ and $B$ are said to be simultaneously diagonalizable.
 
 ###### Properties:
-- A set of [[diagonalizable]] matrices commutes ([[commutativity]]) if an only if the set is simultaneously diagonalizable.
+- A set of [[diagonalizable]] matrices commutes ([[commutativity]]) if an only if the set is simultaneously diagonalizable. This means $AB = BA$ if and only if both are simultaneously diagonalizable.
 
 ###### Additional Thoughts:

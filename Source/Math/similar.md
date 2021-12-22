@@ -11,8 +11,9 @@ Let $A, B \in M_n$ be given. We say that $B$ is similar to $A$ if there exists a
 - Similarity is an equivalence relation on $M_n$: that is, similarity is [[reflexive]], [[symmetric]], and [[transitive]]
 - Let $A,B \in M_n$. If $B$ is similar to $A$, then $A$ and $B$ have the same [[characteristic polynomial]]
 - Let $A, B \in M_n$ and suppose that $A$ is similar to $B$. Then
-		- $A$ and $B$ have the same [[eigenvalue]]s
+		- $A$ and $B$ have the same [[eigenvalue]]s (and by extension the same [[determinant]])
 		- If $B$ is a [[diagonal matrix]], its main diagonal entries are the eigenvalues of $A$
+		- $A$ and $B$ have the same [[trace]], as they have the same eigenvalues
 		- $B=0$ (a diagonal matrix) if and only if $A=0$
 		- $B=I$ (a diagonal matrix) if and only if $A=I$
 - Let $A \in M_n$ be given. Then $A$ is similar to a [[block matrix]] of the form 
