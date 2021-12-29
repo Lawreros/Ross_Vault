@@ -4,7 +4,7 @@ backlinks :
 source : #MASED 
 
 ###### Content:
-A matrix $U \in M_n$ is unitary if $UU^*=I$.
+A matrix $U \in M_n$ is [[unitary]] if $UU^*=I$.
 
 ###### Properties:
 - Unitary matrices are also [[real orthogonal]] due to $U^*=U^T$
