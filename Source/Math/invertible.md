@@ -1,6 +1,6 @@
 name : invertible
 tags : 
-backlinks : 
+backlinks : [[invertible matrix]]
 source : #LADR
 
 ###### Content:

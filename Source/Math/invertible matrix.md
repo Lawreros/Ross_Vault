@@ -1,6 +1,6 @@
 name : invertible matrix
 tags : 
-backlinks : 
+backlinks : [[invertible]]
 source : #MASED 
 
 ###### Content:
