@@ -1,49 +1,54 @@
 [[2022]]
 
+## Weekly TODO:
+#### Professional
+
+#### Personal
+
 ----
-## day-month-year
+## month-day-year
 #### TODO
 
 
 #### Train of thought:
 
 ----
-## day-month-year
+## month-day-year
 #### TODO
 
 
 #### Train of thought:
 
 ----
-## day-month-year
+## month-day-year
 #### TODO
 
 
 #### Train of thought:
 
 ----
-## day-month-year
+## month-day-year
 #### TODO
 
 
 #### Train of thought:
 
 ----
-## day-month-year
+## month-day-year
 #### TODO
 
 
 #### Train of thought:
 
 ----
-## day-month-year
+## month-day-year
 #### TODO
 
 
 #### Train of thought:
 
 ----
-## day-month-year
+## month-day-year
 #### TODO
 
 

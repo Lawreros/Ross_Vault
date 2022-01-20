@@ -17,5 +17,6 @@ If $T \in M_n$ is [[similar]] to a [[diagonal matrix]], then $A$ is said to be d
 		- $dim V = dim E(\lambda_1,T)+...+dim E(\lambda_m,T)$
 
 - If $A \in M_n$ has all eigenvalues being distinct, then $A$ is diagonalizable.
+- $A \in M_n$ is diagonalizable if and only if its [[minimal polynomial]] can be factored into distinct linear factors (were a linear factor is a chunk like this: $(t-\lambda)$). In other words, when [[algebraic multiplicity]] of an eigenvalue is equal to its [[geometric multiplicity]]
 
 ###### Additional Thoughts:
