@@ -1,17 +1,18 @@
 name : linear transformation
 tags : 
 backlinks : [[linear map]]
-source : #MASED 
+source : Matrix Analysis
 
 ###### Content:
-A linear transformation is a function $T:U \rightarrow V$ such that $T(a_1x_1+a_2x_2)=a_1T(x_1)+a_2T(x_2)$ for any scalers $a_1,a_2$ and vectors $x_1,x_2$.
+Let $V,W$ be [[vector space]]s over [[field]]$\mathcal{K}$, and let $T: V \rightarrow W$ be a linear transformation if $\forall x,y \in V$ and scalars $\alpha, \beta \in \mathcal{K}$ $$T(\alpha x + \beta y) = \alpha T(x) + \beta T(y)$$
 
-Let $U$ be an $n$-dimensional [[vector space]] and let $V$ be an $m$-dimensional vector space, both over the same field $\textbf{F}$; let $\mathcal{B}_U$ be a [[basis]] of $U$ and $\mathcal{B}_V$ a basis of $V$. We may use the [[isomorphic]] matrix to do $x \rightarrow [x]_{\mathcal{B}_U}$ and $y \rightarrow [y]_{\mathcal{B}_V}$ to represent vectors in $U$ and $V$ as $n$-vectors and $m$-vectors over $\textbf{F}$, respectively.
-
-A matrix $A \in M_{m,n}(\textbf{F})$ corresponds to the linear transform $T$ in the following way:
-$$y = T(x)$$ if and only if $$[y]_{\mathcal{B}_V} = A[x]_{\mathcal{B}_U}$$
-The matrix $A$ is said to *represent the linear transformation $T$*, which depends on the bases chosen.
+**Example:**
+$$A \in M_{m,n} : \mathbb{C}^n \rightarrow \mathbb{C}^m$$
 
 ###### Properties:
+- If $V$ [[vector space]] over $\mathcal{K}$ is finite dimensional, say $dim(T) = n$, then $V$ is [[isomorphic]] to $\mathcal{K}^n$ over $\mathcal{K}$
+- Say $B = \{b^{(1)},b^{(2)},...,b^{(n)}\}$ is a [[basis]] for $V$, then $\forall x \in V$ there exists a unique $\alpha_1,\alpha_2,...,\alpha_n$ such that $x = \sum_{i=1}^n \alpha_1 b^{(i)}$
+- If $V,W$ are [[finite-dimensional vector space]]s that have bases $B_v := \{b^{(1)},b^{(2)},...,b^{(n)}\}$, $B_w := \{b^{(1)'},b^{(2)'},...,b^{(n)'}\}$. Then $T : V \rightarrow W$ is a linear transformation if and only if there exists $A \in M_{m,n}(\mathcal{K})$ such that $\forall x \in V, y \in W$ the transformation $T(x) = y$ if and only if $Ax_{B_V} = y_{B_W}$
+- Let $V, ||\cdot||_V$ and $W, ||\cdot||_W$ be [[normed linear space]]s over $\mathcal{K}$ such that $T: V \rightarrow W$ is a linear transformation. $T$ is continuous if and only if $\underset{x \in V}{sup} \frac{||Tx||_W}{||x||_V} < \infty$ where $x$ is nonzero.
 
 ###### Additional Thoughts:
