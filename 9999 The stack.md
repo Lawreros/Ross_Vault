@@ -8,20 +8,17 @@ Notes in here are waiting for placement and any additional linking that may stil
 ---
 #### 1-2 hours left
 Notes that are still having content added to them, but aren't that far from being done.
-- [[Test-Retest Reliability of Graph Theory Measures of Structural Brain Connectivity]]
-- [[Louvain method for community detection]] (https://en.wikipedia.org/wiki/Louvain_method)
+- 
 
 ---
 #### 3+ hours left
 Notes or projects that need at least an afternoon's worth of work in order to complete.
-- [[Structural and Functional Rich Club Organization of the Brain in Children and Adults]]
-- [[Prominence and Control. The Weighted Rich-Club Effect]]
-- [[Test-retest reliability of the human functional connectome over consecutive days. Identifying highly reliable portions and assessing the impact of methodological choices]]
+- 
 
 ---
 #### 1+ days left
 Projects that are in the mid to late stages of completion.
-- [[Graph-Based Deep Learning for Medical Diagnosis and Analysis; Past, Present, and Future]]
+- 
 ---
 #### 1+ weeks left
 Projects that are started but still in the early stages of completion.

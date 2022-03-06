@@ -16,6 +16,14 @@ In supervised learning, the training data you feed the algorithm includes the de
 - linear regression
 - logistic regression
 - support vector machines (SVMs)
+		- Linear SVM Classification
+			- Soft Margin Classification
+		- Nonlinear SVM Classification
+			- Polynomial Kernel
+			- Adding Similarity Features
+			- Gaussian RBF Kernel
+			- Computational Complexity
+		- SVM Regression
 - decision tree and random forest
 - neural networks
 

@@ -6,6 +6,7 @@ Associated Tags:
 #### Languages
 - [[Rust]]
 - [[python]]
+- [[C++]]
 
 
 #### Category 2
