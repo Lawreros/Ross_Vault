@@ -64,11 +64,145 @@ C++ Conditions:
 - `if(value1 == 7 || value2 == 4) {...}` This OR statement is checked from left to right, where if one of the conditions is found to be true the program doesn't check the remaining conditions
 - `bool condition1 = (value1 == 8) && (value2 < 3)` will create the variable `condition` which is a bool for whether value1=8 and value2 < 3
 
+While Loops:
+- `while() {...}`
+- `i++` increments `i` by 1, similar to python's `i =+ 1`
+
+Do-While Loops:
+- `do { ... } while();`
+- difference from just a while loop is that the program is guaranteed to run the contents of the do-while loop at least once
+- It executes code, then checks the while condition at the end to determine if another loop is needed. This is different from the while loop which will check before
+- `const string` makes an immutable string
+- variables only exist inside of the scope that they are defined in:
+```c++
+string input = "else";
+
+// This loop will run infinitely, because the while loop
+// checks the variable input that is in the global scope
+
+while(input == "else") {
+	string input = "something"; // different input variable
+}
+
+```
+
+For Loops:
+- `for(int i=0; i < 10; i++) {...}` creates a loop which starts with `i=0` and keep incrementally increasing `i` by 1 until `i<10` is evaluated to `false`
+- `for(;;) {...}` creates and infinite loop
+
+Break and Continue:
+- `break;` breaks the innermost loop currently occuring
+- `continue;` breaks out of particular iteration of the loop and starts the next loop
+
+Arrays - Lists of Data
+- `int values[3]` creates an array with 3 elements
+		- `double values[3]`
+		- `float values[3]`
+		- `string values[3]`
+- `int values[3] = {4, 35, 16};`
+- `values[0] = 35;` assigns single element
+- These values can be accessed the same way they are defined `x = values[0]`
+- If you call an element of an array without first assigning it a value, you'll get a random value which is whatever the computer had in it's memory stored there
+- If you initialize the array when you declare it, you don't need to define the number of elements in the array, the compiler will do that automatically: `string texts[] = {"one", "two", "three"};`
+- IMPORTANT: There is nothing stopping you from accessing array elements that don't exist. These will return whatever is in the memory there. For example with `int values[3] = {1,2,3}` you can use `x = values[27]` without an issue. You can also write to elements that don't exist
+
+Multidimensional Arrays
+ ```c++
+string animals[2][3] = {
+	{"fox", "dog", "cat"},
+	{"mouse","squirrel","parrot"}
+};
+
+for(int i=0; i<2; i++) {
+	for(int j=0; j<3, j++) {
+		cout << animals[i][j] << " " << flush;
+	}
+	cout << endl;
+}
+```
+
+- C++ does rows, columns
+- You can kind of cheese the creation of the array by just using a list of values. Both of the following variables make the same 3D array:
+```c++
+int test[2][3][4] = {3, 4, 2, 3, 0, -3, 9, 11, 23, 12, 23, 
+                 2, 13, 4, 56, 3, 5, 9, 3, 5, 5, 1, 4, 9};
+
+
+int test[2][3][4] = { 
+                     { {3, 4, 2, 3}, {0, -3, 9, 11}, {23, 12, 23, 2} },
+                     { {13, 4, 56, 3}, {5, 9, 3, 5}, {5, 1, 4, 9} }
+                 };
+```
+
+Sizeof and Arrays
+- `sizeof` is an operator that gives the number of bytes attributed to a variable in the memory
+- You can use `sizeof(some_array)` to get the size of the array
+
+Sizeof Multidimensional Arrays
+- 
+
+Switch
+```c++
+int value = 4;
+
+switch(value) {
+	case 4:
+		cout << "Value is 4" << endl;
+		break;
+	case 5:
+		cout << "Value is 5" << endl;
+		break;
+	default:
+		cout << "Unrecognized value" << endl;
+}
+```
+- `default` is not needed, the switch will just do nothing, but it is good practice to include
+- If you don't include the `break;`, the program will go to the matching case and the keep executing all the way down. So in the above example, if `case 4` did not have a `break;` then it would run both `case 4:` and `case 5:` until reaching the `break;` in `case 5:`
+- You are NOT allowed to have a variable as a `case` statement, only literals or constants (i.e. `const int value = 4;` and then `case value:`), so no `case some_variable: ...`
+
 #### Subroutines: Reusable Blocks of Code
+Functions:
+- C++ is mainly focused on classes, and improvement on C which focused exclusively on functions
+- The compiler reads things from top to bottom, so if a function is not declared before it is called, then the compiler will fail
+- `void function() {...}`
+
+Return Values:
+- The data type you put before a function is called the "Return type"
+- `int some_variable = some_function();`
+- variables are dependent on the scope they are currently a part of
+
+Function Parameters
+- `void some_function(int variable1) {...}` can be called using `some_function(29);` or `some_function(variable);`
+- When variables are passed into a function, a copy is made inside of the scope of the function. Changes only exist inside that scope.
+
+Headers and Prototypes (NEED TO REVISIT HOW XCODE DOES HEADERS)
+- You can declare functions before they have be defined by putting a "prototype" of the function above `main()`. So above `main()` you can put something like `void some_function();`. With that the compiler says "I trust that this function takes the inputs and returns the outputs that you say" and moves on, eventually getting to the definition
+- headers get called using `#include "headerfile.h"`
+- General rational is that `<>` around a header reference some file that is in a standard location that the compiler will know about, while `""` are usually used for files included in your project
+- compiler literally copies the text in the header file and puts it at the top of you `.cpp` file
+1)  preprocessor looks at the `#` symbols in your code and processes them
+2)  compile the source code
+3)  assemble the compiled files
+4)  linking the object code file
+- multiple includes for the same file in a program and prevented by the preprocessor and the `#ifndef` and `#define` commands in the header files
 
 
 #### Object Oriented Coding
+Classes:
 
+Data Members:
+
+C++ Constructors and Destructors:
+
+C++ Getters and Setters:
+
+C++ String Stream:
+
+Overloading Constructors:
+
+The "this" Keyword:
+
+Constructor Initialization Lists:
 
 #### Pointers and Memory
 
