@@ -89,6 +89,7 @@ while(input == "else") {
 
 For Loops:
 - `for(int i=0; i < 10; i++) {...}` creates a loop which starts with `i=0` and keep incrementally increasing `i` by 1 until `i<10` is evaluated to `false`
+- You can put multiple things in the last section of the for loop in order to have multiple things change per iteration. `for(int i=0; i<10; i++, j++)` will increase the value of both `i` and `j` by 1 at each iteration.
 - `for(;;) {...}` creates and infinite loop
 
 Break and Continue:
@@ -496,19 +497,589 @@ int main() {
 - General convention is to use parenthesis as often as possible for more complex equations to improve readability
 
 Pointers and Arrays:
+- string objects can actually be considered as pointers to where the string is actually stored. That's why strings of different lengths have the same size when you are using `sizeof(string)`. You aren't getting the size of the word, but rather the size of the address of the word.
+- array variables and pointers are similar in nature, with the difference being that the array variable knows the size of the data it is pointing at. That is why `sizeof(array)` works.
+- You can assign an array to a pointer, as the array variable is effectively just pointing to where each chunk of data is located in memory
+- By adding 1 to a pointer, C++ knows that you want it to display the next block of data in the memory that it is pointing at.
+- 
+```c++
+// Loop through an array using a pointer, with array element reference syntax
+// Loop through an array by incrementing a pointer
+// Loop through an array, stopping by comparing two pointers
+
+int main() {
+
+	string texts[] = { "one", "two", "three" };
+
+	string *pTexts = texts; //makes the pointer *pTexts point to first entry in texts
+
+	for (int i = 0; i < sizeof(texts) / sizeof(string); i++) {
+		cout << pTexts[i] << " " << flush; //You can increment through the array by using the pointer like an array
+	}
+
+	cout << endl;
+
+	for (int i = 0; i < sizeof(texts) / sizeof(string); i++, pTexts++) {//Adding +1 do pTexts tells C++ to go to next string entry in memory for the array
+		cout << *pTexts << " " << flush;
+	}
+
+	cout << endl;
+
+	string *pElement = &texts[0]; //set pointer to location for first entry
+	string *pEnd = &texts[2]; //set pointer to locaton for last entry
+
+	while(true) {
+		cout << *pElement << " " << flush;
+
+		if(pElement == pEnd) {//Stop when pointer locations are the same(?)
+			break;
+		}
+
+		pElement++;
+	}
+}
+```
 
 Pointer Arithmetic:
+- You can use addition and subtraction with pointer and locations in memory to creatively navigate through memory
+```c++
+
+int main() {
+	const int NSTRINGS = 5;
+	string texts[NSTRINGS] = {"one", "two", "three", "four", "five"};
+
+	string *pTexts = texts;
+
+	pTexts += 3;
+
+	cout << *pTexts << endl;
+
+	pTexts -= 2;
+
+	cout << *pTexts << endl;
+
+	string *pEnd = &texts[NSTRINGS];
+	pTexts = &texts[0];
+
+	while(pTexts != pEnd) {
+		cout << *pTexts << endl;
+		pTexts++;
+	}
+
+	// Set pTexts back to start.
+	pTexts = &texts[0];
+
+	long elements = (long)(pEnd - pTexts);
+
+	cout << elements << endl;
+
+	// Set pTexts back to start.
+	pTexts = &texts[0];
+
+	pTexts += NSTRINGS/2; //because NSTRINGS is an int, 2.5 is stored as 2 and added to pTexts
+	cout << *pTexts << endl; //returns "three" because pTexts originally pointed to "one", then moved two locations down to "three" in the memory
+
+}
+```
 
 Char Arrays:
+- You can create an array of `char`'s and call it using `cout`
+- `char text[] = "hello"` creates an array where `hello` is split up into individual character entries
+- "null string terminator" is an invisible character at the end of the string which tells the computer that the string ends there. When you put a string in `""` the terminator is added.
+		- This means that is you do `char text[] = "hello";` and then `sizeof(text)`, you will get `6` characters instead of `5` because the last entry in the array is the null string terminator (which you can cast to an `int` to see that it is a `0`)
+```c++
+int main() {
+	char text[] = "hello";
+	
+	for(int i=0; i<sizeof(text); i++) {
+		cout << i << ": " << text[i] << endl;
+	} //returns 1: h, 2: e, 3: l, 3: l, 4: o, 5: 
+	
+	int k=0;
+	
+	while(true) {
+		if(text[k] == 0)
+			break;
+		
+		cout << text[k] << flush;
+		k++;
+	}
+}
+```
 
 Reversing a String:
+- weirdly enough, and interview question
+- This is just one way of doing this, there are multiple other ways
+- The excerpt below shows how to do it with pointers, another way is doing it with char arrays:
+```c++
+int main() {
+	char text[] = "hello";
+	int nChars = sizeof(text)-1;
+	
+	char *pStart = text;
+	char *pEnd = text + nChars -1;
+	
+	while(pStart < pEnd) {
+		char save = *pStart;
+		*pStart = *pEnd;
+		*pEnd = save;
+		
+		pStart++;
+		pEnd--;
+	}
+	
+	cout << text << endl;
+	
+}
+```
 
 References:
+- `int &value2 = value1;` creates a reference, where changes made to `value2` also change `value1`. Think of `value2` being made into a synonym for `value1`
+- "Reference variables create aliases to existing variables"
+- Useful when you want to have a function that changes the value of something without using a `return` statement
+- simpler to use a reference instead of a pointer when applicable
+
+```c++
+
+void changeSomething(double &value) {
+	value = 123.4;
+}
+
+
+int main() {
+	int value1 = 8;
+	int &value2 = value1;
+	value2 = 10;
+	
+	cout << "Value1: " << value1 << endl;
+	cout << "Value2: " << value2 << endl;
+	// Value1: 10
+	// Value2: 10
+	
+	double value = 4.321;
+	changeSomething(value);
+	cout << value << endl;
+	// 123.4
+}
+```
 
 The "const" Keyword:
+- `const` makes a variable no longer a variable. It can't change anymore.
+- Common practice to make constants all caps to emphasize that it is a constant.
+- Putting `const` in a class method between the `()` and `{}` makes it so that the method is unable to change any variable value. This is generally used as a safety precaution to make sure that classes are exactly what you say they are.
+```c++
+class Animal {
+private:
+	string name;
+
+public:
+	void setName(string name) { this->name = name; };
+	void speak() const { cout << "My name is: " << name << endl; }
+};
+
+int main() {
+
+	const double PI = 3.141592;
+	cout << PI << endl;
+
+	Animal animal;
+	animal.setName("Freddy");
+	animal.speak();
+
+	int value = 8;
+
+	// const int * const pValue = &value;
+	int *pValue = &value;
+
+	cout << *pValue << endl;
+
+	int number = 11;
+	pValue = &number; // Error with this: int * const pValue = &value;
+	*pValue = 12; // Error with this: const int *pValue = &value;
+
+	cout << *pValue << endl;
+}
+```
+
+```c++
+int value = 8;
+const int *pValue = &value; //A pointer to a constant int
+int* const pValue = &value; //A constant pointer to an int
+
+const int* const pValue = &value; //A constant pointer to a constant int
+
+```
 
 Copy Constructors:
+- A "copy constructor" is a special construction for C++ that is used when you set one variable of a class equal to an existing variable of the same class. The parameters of the existing variable are used to create the new variable, meaning that the new one isn't constructed the same way. (i.e. it doesn't call the constructor of the class mentioned in previous lessons)
+- You can create your own copy constructors using references and `const`, passing in the existing class variable
+		- Because the new variable is of the same class as what you are using, you can actually access `private` variables and assign values to them
+- You can call `const` methods in a copy constructor because you know it doesn't change any values of the object. You don't want to be modifying the variable you are copying while you are copying it.
 
+```c++
+class Animal {
+private:
+	string name;
+
+public:
+	Animal() { cout << "Animal created." << endl; };
+	Animal(const Animal& other): name(other.name) { cout << "Animal created by copying." << endl; };
+	void setName(string name) { this->name = name; };
+	void speak() const { cout << "My name is: " << name << endl; }
+};
+
+int main() {
+
+	Animal animal1;
+
+	animal1.setName("Freddy");
+
+	Animal animal2 = animal1; //call copy constructor
+	animal2.speak();
+	animal2.setName("Bob");
+
+	animal1.speak();
+	animal2.speak();
+
+	Animal animal3(animal1); //another valid way to call the copy constructor
+	animal3.speak();
+
+}
+```
+
+The New Operator:
+- the `new` operator instantiates a variable from a variable type/class and must be referred to by a pointer. Variables created this way do not get deleted when going out of scope, as they aren't really associated with any scope. (apparently adds variable to the heap)
+- always call `delete` when you call `new`, which will cause memory leaks because of the lack of a scope association
+- look at the `this` description from before to see what the `->` means. It allows you to call methods on a pointer.
+```c++
+class Animal {
+private:
+	string name;
+
+public:
+	Animal() {//constructor
+		cout << "Animal created." << endl;
+	}
+
+	Animal(const Animal& other) ://copy constructor
+			name(other.name) {
+		cout << "Animal created by copying." << endl;
+	}
+
+	~Animal() {//destructor
+		cout << "Destructor called" << endl;
+	}
+
+	void setName(string name) {
+		this->name = name;
+	}
+
+	void speak() const {
+		cout << "My name is: " << name << endl;
+	}
+};
+
+
+int main() {
+	Animal *pCat1 = new Animal();
+	pCat1->setName("Freddy");
+	pCat1->speak();
+	delete pCat1;
+
+	cout << sizeof(pCat1) << endl;
+
+}
+```
+
+Returning Objects from Functions:
+- using `new` allows you to make objects with no real scope. This means that you can pass around the pointer to the object without worrying about the object getting deleted as the function ends, or returning a copy of the object (the copy constructor is called if an object is returned by a function, as the program that called the function is assigning a copy of the returned variable to a new variable in its scope and deleting the returned variable)
+- you can specify functions to return pointers
+- Remember, you need to call `delete` to prevent memory leaks when passing around objects.
+
+```c++
+class Animal {
+private:
+	string name;
+
+public:
+	Animal() {
+		cout << "Animal created." << endl;
+	}
+	Animal(const Animal& other) :
+			name(other.name) {
+		cout << "Animal created by copying." << endl;
+	}
+	~Animal() {
+		cout << "Destructor called" << endl;
+	}
+	void setName(string name) {
+		this->name = name;
+	}
+	void speak() const {
+		cout << "My name is: " << name << endl;
+	}
+};
+
+Animal *createAnimal() { //returns a pointer to an Animal variable
+	Animal *pAnimal = new Animal();
+	pAnimal->setName("Bertie");
+	return pAnimal;
+}
+
+int main() {
+	Animal *pFrog = createAnimal();
+	pFrog->speak();
+	delete pFrog;
+}
+```
+
+
+Allocating Memory:
+- `new` both allocates enough memory for the object and instantiates the object in that spot
+- putting `[]` after a `new <object type>` statement allows you to determine how many of that object you want to create. This is treated like an array, aka a collection of pointers, and can be accessed and interacted as such.
+		- You must then do `delete [] <array_name>` to tell C++ that you aren't just deleting one instance of the object that the pointer points at
+- 
+
+```c++
+class Animal {
+private:
+	string name;
+
+public:
+	Animal() {
+		cout << "Animal created." << endl;
+	}
+
+	Animal(const Animal& other) :
+			name(other.name) {
+		cout << "Animal created by copying." << endl;
+	}
+
+	~Animal() {
+		cout << "Destructor called" << endl;
+	}
+
+	void setName(string name) {
+		this->name = name;
+	}
+
+	void speak() const {
+		cout << "My name is: " << name << endl;
+	}
+};
+
+
+int main() {
+
+	Animal *pAnimal = new Animal[10];
+
+	pAnimal[5].setName("George");
+	pAnimal[5].speak();
+
+	delete [] pAnimal;
+
+	char *pMem = new char[1000];
+	delete [] pMem;
+
+	char c = 'a';
+	c++; //can use arithematic with characters
+	string name(5, c); //"create a string with 5 characters, with the character being the value of c"
+	cout << name << endl; //bbbbb
+}
+```
+
+Arrays and Functions:
+- You loose information about the number of elements in an array when you pass it into a function, as if you ask for the size all you get is the size of the pointer (in function `show1` if you did `sizeof(texts)`, you would get the size of a string pointer)
+		- It's common practice to also pass in the number of elements in the array
+
+- If you do want to retain size information, you have to pass a pointer to the array (`show3`). You have to put `&texts` in brackets to make it a "reference to an array of strings". If you didn't do that it would be considered an "array of references to strings"
+- You can return an array from a function through the use of pointers, but you don't want to return pointers to local variables in that scope (the local variable will be deleted and now you pointer points to nothing). Use of `new` is pretty much required
+		- Note that you can't specify to a function that you are returning an array. Remember that you have to put the return type in front of the function, and there is not type for an array.
+- Can declare variables outside of any function, they'll be available to every function
+
+```c++
+// Could declare variables here! string numbers[] = {"one", "two", "three"};
+
+void show1(const int nElements, string texts[]) {
+
+	// cout << sizeof(texts) << endl; returns sizeof pointer!
+
+	for(int i=0; i<nElements; i++) {
+		cout << texts[i] << endl;
+	}
+}
+
+void show2(const int nElements, string *texts) {
+
+	// cout << sizeof(texts) << endl; returns sizeof pointer!
+
+	for(int i=0; i<nElements; i++) {
+		cout << texts[i] << endl;
+	}
+}
+
+void show3(string (&texts)[3]) {//have to specify number of elements in array
+
+	// cout << sizeof(texts) << endl; returns sizeof pointer!
+
+	for(int i=0; i<sizeof(texts)/sizeof(string); i++) {
+		cout << texts[i] << endl;
+	}
+}
+
+char *getMemory() {
+	char *pMem = new char[100];
+
+	return pMem;
+}
+
+void freeMemory(char *pMem) {
+	delete [] pMem;
+}
+
+int main() {
+	string texts[] = {"apple", "orange", "banana"};
+
+	cout << sizeof(texts) << endl;
+	
+	show1(3, texts);
+	show2(3, texts); //show1, show2, and show3 are equivalent
+	show3(texts);
+	
+	char *pMemory = getMemory();
+	freeMemory(pMemory);
+
+}
+```
+
+Namespaces:
+- namespaces are a way of avoiding conflicts between classes and variables with the same name
+- You can put header information and .cpp information in a namespace by putting all of the text inside of `namespace <some_name> {...}`
+		- You must put both inside of a namespace, if the header or definition is in a namespace, the other must be
+- If you have more than on namespace, you must specify the namespace if you have identically named classes'
+- Without a header file with a definition of what is inside of the namespace, the program does not know that the namespace exists. Thus you must include the relevant header.
+- As long as the namespace is defined, you don't have to expressly say `using namespace cats`, you can just do `cats::`
+- You can define variables and constants in namespaces
+
+main.cpp
+```c++
+#include <iostream>
+
+#include "Animals.h"
+#include "Cat.h"
+
+using namespace std;
+using namespace jwp;
+
+int main() {
+
+	Cat cat;
+	cat.speak();
+
+	jwp::Cat cat2;
+	cat2.speak();
+
+	cats::Cat cat3;
+	cat3.speak();
+
+	cout << jwp::CATNAME << endl;
+	cout << cats::CATNAME << endl;
+
+	cout << CATNAME << endl;
+
+	return 0;
+}
+
+```
+
+Animals.cpp
+```c++
+#include "Animals.h"
+
+namespace jwp {
+
+Cat::Cat() {
+	// TODO Auto-generated constructor stub
+}
+
+Cat::~Cat() {
+	// TODO Auto-generated destructor stub
+}
+
+void Cat::speak() {
+	cout << "Sssssss!" << endl;
+}
+
+} /* namespace jwp */
+```
+
+Animals.h
+```c++
+#ifndef ANIMALS_H_
+#define ANIMALS_H_
+
+#include <iostream>
+using namespace std;
+
+namespace jwp {
+
+const string CATNAME = "Tiddles";
+
+class Cat {
+public:
+	Cat();
+	virtual ~Cat();
+	void speak();
+};
+
+} /* namespace jwp */
+
+#endif /* ANIMALS_H_ */
+```
+
+Cat.cpp
+```c++
+#include "Cat.h"
+
+namespace cats {
+
+Cat::Cat() {
+	// TODO Auto-generated constructor stub
+}
+
+Cat::~Cat() {
+	// TODO Auto-generated destructor stub
+}
+
+void Cat::speak() {
+	cout << "Meuuowww!" << endl;
+}
+
+}
+```
+
+Cat.h
+```c++
+#ifndef CAT_H_
+#define CAT_H_
+
+#include <iostream>
+using namespace std;
+
+namespace cats {
+
+const string CATNAME = "Freddy";
+
+class Cat {
+public:
+	Cat();
+	virtual ~Cat();
+	void speak();
+};
+
+}
+#endif /* CAT_H_ */
+```
 
 #### Inheritance
 
