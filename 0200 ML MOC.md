@@ -13,7 +13,7 @@ Associated Tags:
 #### Supervised Learning ([[supervised learning]])
 In supervised learning, the training data you feed the algorithm includes the desired solutions, called *labels*:
 - k-nearest neighbors
-- linear regression
+- [[linear regression]]
 - logistic regression
 - support vector machines (SVMs)
 		- Linear SVM Classification
@@ -49,6 +49,14 @@ In unsupervised learning, the training data is unlabeled, causing the system to 
 Algorithms that can deal with partially labeled training data, usually a lot of unlabeled data and a little bit of labeled data.
 -	deep belief networks (DBNs)
 -	restricted Boltzmann machines (RBMs)
+
+#### Performance Metrics
+- [[cross-validation]]
+- [[confusion matrix]]
+- [[precision]]
+- [[recall]]
+- [[ROC curve]]
+- [[AUC]]
 
 
 ## Topics to Investigate

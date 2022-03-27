@@ -1082,9 +1082,105 @@ public:
 ```
 
 #### Inheritance
+Inheritance: 
+- "sub/child classes" are a type of the "super-class"
+- Allows you to extend the methods accessible to the sub-class from the existing methods of the super-class
+- You can have sub-classes made from sub-classes. It really just comes down to what information is available to each level of sub
+
+```c++
+class Animal {
+public:
+	void speak() { cout << "Grrr" << endl;}
+};
+
+class Cat: public Animal {
+public:
+	void jump() { cout << "Cat jumping!" << endl; }
+};
+
+class Tiger: public Cat {
+public:
+	void attackAntelope() { cout << "Attacking!" << endl;}
+};
+
+int main() {
+	Animal a;
+	a.speak();
+	
+	Cat cat;
+	cat.speak();
+	cat.jump();
+	
+	Tiger tiger;
+	tiger.jump();
+	tiger.speak();
+	tiger.attackAntelope();
+}
+
+```
+
+Encapsulation:
+- Encapsulation is the idea that you want to make as much of the variable values and methods private as possible in a class
+- It's common practice to make a `private:` section in the class for variables and another for methods/functions (this doesn't effect how the code runs, it's just more readable.)
+
+```c++
+class Frog {
+private:
+	string name;
+	
+private:
+	string getName() { return name; }
+	
+public:
+	Frog(string name): name(name) { }
+	
+	void info() { cout << "My name is:" << endl;}
+};
+
+int main() {
+	Frog fron("Freddy");
+	frog.info();
+}
+```
+
+
+Constructor Inheritance:
+- for a sub class, the constructor of the parent class is called before the constructor of the sub class
+- while a subclass can not access a private variable of a parent class, it can access methods of the parent class that can access private variables
+- you can set up a constructor of a subclass so that it has access to private variables of a parent class by having the constructor call the parent constructor
+		- You can only have a subclass constructor use its immediate parent's constructor, you can skip multiple levels
+
+```c++
+class Machine {
+private:
+	int id;
+	
+public:
+	Machine(): id(0) { cout << "Machine no-argument constructor called." << endl; }
+	Machine (int id): id(id) { cout << "Machine parameterized constructor called." << endl; }
+	void info() { cout << "ID: " << id << endl; }
+};
+
+class Vehicle: public Machine {
+public:
+	Vehicle(int id): Machine(id) { cout << "Vehicle parameterized constructor called." << endl; }
+	Vehicle() { cout << "Vehicle no-argument constructor called." << endl;}
+}:
+
+class Car: public Vehicle {
+public:
+	Car(): Vehicle(999) { cout << "Car no-argument constructor called" << endl; }
+};
+
+int main() {
+	Car car;
+	car.info();
+}
+```
 
 
 #### Odds and Ends: Twos Complement and Static Variables
+
 
 
 #### Developing a Program: The Particle Fire Simulation
