@@ -1180,7 +1180,67 @@ int main() {
 
 
 #### Odds and Ends: Twos Complement and Static Variables
+Twos Complement:
+- Talk about the "wrap around" thing that happens when you exceed the value that can be stored for a variable.
+- Look up `One's Complement` and `Two's Complement` as memory storage techniques. These are how you can can store numbers to do arithmetic easily with binary. `One's Complement` is outdated and not commonly used.
+```c++
+int main() {
+	char value = 127; //maximum value that can fit in a char
 
+	cout << (int)value << endl;
 
+	value++; // exceed maximum value
+
+	cout << (int)value << endl; // prints "-128"
+}
+```
+
+Static Keyword:
+- `static` variables are shared across all objects of a particular class.
+- `static` variables can only be accessed using `static` methods
+- often used to keep track of how many times you've instantiated a class. You can use this to create a type of id for each object by using that static value with constructor methods.
+- `id = count++;` assigns the value of `count` to `id` then increases `count` by 1. `id = ++count;` increases the value of `count` by 1, then assigns the value of `count` to `id`
+```c++
+// .h header file
+class Test {
+public:
+	// Initialisation of const must be done right here!
+	static int const MAX = 99;
+
+private:
+	int id;
+	static int count;
+
+public:
+	Test() {
+		id = count++; //assign value of count to id, then increase count by 1
+	}
+
+	int getId() {
+		return id;
+	}
+
+	static void showInfo() {
+		cout << count << endl;
+	}
+};
+
+// .cpp source
+int Test::count = 7;
+
+int main() {
+
+	Test::showInfo(); // displays 7
+	cout << Test::MAX << endl; //displays 99
+
+	Test test1;
+	cout << "Object 1 ID: " << test1.getId() << endl; //displays 7
+
+	Test test2;
+	cout << "Object 2 ID: " << test2.getId() << endl;//displays 8
+
+	Test::showInfo();
+}
+```
 
 #### Developing a Program: The Particle Fire Simulation
