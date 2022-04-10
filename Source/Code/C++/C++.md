@@ -22,7 +22,7 @@ The outline for this note, and by extension the information about C++ is taken f
 - Strings
 		- `string` is technically a class, while `int` is a "primitive type"
 		- strings are not completely standard between compilers
-		- `"This puts a tab between this word \tand this word`
+		- `"This puts a tab between this word \tand this word"`
 
 - User Input
 		- `cout` is a special object for outputting text
@@ -1244,3 +1244,17 @@ int main() {
 ```
 
 #### Developing a Program: The Particle Fire Simulation
+Using C++ Libraries:
+- Static libraries are files containing C++ code which are actually compiled into your program. Static libraries are binaries.
+		- `.lib` suffix on windows
+		- `lib*.a` prefix and suffix on linux
+- Dynamic libraries are libraries that the program finds and uses at runtime, these are not compiled into your program.
+		- `.dll` suffix on windows
+		- `lib*.so` prefix and suffix on linux
+
+
+Acquiring Simple Direct Media Layer:
+- Some good libraries that allow pixel-level control
+		- `SDL`
+		- `OpenGL`
+- https://www.paulbarrick.com/game-devlopment/game-development-on-linux-using-vscode-sdl2-and-opengl/ 
