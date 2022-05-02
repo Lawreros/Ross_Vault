@@ -12,7 +12,7 @@ A [[norm]] on $M_n(\mathcal{K})$ is a matrix norm if, for all $A,B \in M_n(\math
 
 
 **Examples:**
-- L1 norm on $M_n(\mathcal{K})$: $||A||_1 = \sum_{i,j}^n |a_{i,j}|$
+- L1 norm on $M_n(\mathcal{K})$: $||A||_1 = max_j \sum_{i}^n |a_{i,j}|$
 - L2 norm (or [[Frobenius norm]]) on $M_n(\mathcal{K})$: $||A||_2 = ||A||_F = \sqrt{\sum_{i,j}^n |a_{i,j}|^2}$
 - L-infinity norm is NOT a matrix norm as it fails submultiplicativity
 

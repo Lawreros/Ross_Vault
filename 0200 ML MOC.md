@@ -61,4 +61,7 @@ Algorithms that can deal with partially labeled training data, usually a lot of 
 
 ## Topics to Investigate
 This is where you make a bunch of empty links for things that you have heard about but haven't fully investigated
-- 
+- Linear Discriminant Analysis
+- Marqardt Backpropagation Algorithm
+- Canonical Correlation Analysis
+- Stepwise Discriminant Analysis
