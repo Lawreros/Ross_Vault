@@ -12,7 +12,7 @@ Associated Tags:
 
 #### Supervised Learning ([[supervised learning]])
 In supervised learning, the training data you feed the algorithm includes the desired solutions, called *labels*:
-- k-nearest neighbors
+- [[k-nearest neighbors]]
 - [[linear regression]]
 - logistic regression
 - support vector machines (SVMs)
@@ -24,14 +24,15 @@ In supervised learning, the training data you feed the algorithm includes the de
 			- Gaussian RBF Kernel
 			- Computational Complexity
 		- SVM Regression
-- decision tree and random forest
+- [[decision tree]]
+- random forest
 - neural networks
 
 #### Unsupervised Learning ([[unsupervised learning]])
 In unsupervised learning, the training data is unlabeled, causing the system to try a learn without a teacher.
 - Clustering:
-		- K-means
-		- DBSCAN
+		- [[k-means clustering]]
+		- [[DBSCAN clustering]]
 		- hierarchical clustering analysis (HCA)
 - Anomaly detection and novelty detection
 		- one-class SVM
@@ -60,7 +61,6 @@ Algorithms that can deal with partially labeled training data, usually a lot of 
 
 
 ## Topics to Investigate
-This is where you make a bunch of empty links for things that you have heard about but haven't fully investigated
 - Linear Discriminant Analysis
 - Marqardt Backpropagation Algorithm
 - Canonical Correlation Analysis
