@@ -13,6 +13,6 @@ How the training and testing sets are partitioned can follow several different m
 
 ###### Properties:
 - Mainly used with classifiers
-- The quantitative measure of fit that is used to determine the performance of the model can vary based on what is appropriate for the data and model. For [[binary classification]] problems the measure could be the rate at which the model correctly predicted the classification of a data point. When the value being predicted is continuously distributed, the [[mean squared error]], [[root mean squared error]], or [[median absolute deviation]] could be used to summarize the errors
+- The quantitative measure of fit that is used to determine the performance of the model can vary based on what is appropriate for the data and model. For [[binary classification]] problems the measure could be the rate at which the model correctly predicted the [[classification]] of a data point. When the value being predicted is continuously distributed, the [[mean squared error]], [[root mean squared error]], or [[median absolute deviation]] could be used to summarize the errors
 
 ###### Additional Thoughts:

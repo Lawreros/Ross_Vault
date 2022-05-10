@@ -13,7 +13,7 @@ Associated Tags:
 [[The Rust Programming Language]]
 
 #### StatsProb
-
+[[Introduction To Probability]]
 
 #### Medical
 [[Functional Magnetic Resonance Imaging]]

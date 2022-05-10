@@ -4,7 +4,7 @@ backlinks :
 source : #HOML
 
 ###### Content:
-A confusion matrix is a way to measure the performance of a classifier. The general idea is to count the number of times instances of class A are classified as class B, instead of properly being classified as class A. In a confusion matrix, the columns represent the predicted classification, while the rows represent the actual classification.
+A confusion matrix is a way to measure the performance of a classifier. The general idea is to count the number of times instances of class A are classified as class B, instead of properly being classified as class A. In a confusion matrix, the columns represent the predicted [[classification]], while the rows represent the actual [[classification]].
 
 In the example below, there is a classifier that can classify data as either belonging to class A, B, C, or D. Comparing the predictions made by the model on a set of data with the actual labels for the data, you can construct a confusion matrix.
 

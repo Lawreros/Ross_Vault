@@ -28,6 +28,7 @@ Where longer-term things are linked to before finding their home. For notes that
 - Hidden Markov model (https://en.wikipedia.org/wiki/Hidden_Markov_model)
 - Linear discriminant analysis (https://en.wikipedia.org/wiki/Linear_discriminant_analysis)
 - computer vision resources: https://github.com/jbhuang0604/awesome-computer-vision#books
+- long short-term memory (LSTM): https://en.wikipedia.org/wiki/Long_short-term_memory
 - nishimoto "current biology" 2011, video features on prediction of fmri
 - fNIRS (imaging modality)
 		- Joseph P. Culver
