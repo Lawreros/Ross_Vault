@@ -4,7 +4,7 @@ backlinks :
 source : 
 
 ###### Content:
-A classification tree is a [[decision tree]] whose purpose is to predict a classification (label) for a given input.
+A classification tree is a [[decision tree]] whose target variable is a categorical value (label) for a given input.
 
 ###### Properties:
 
