@@ -9,6 +9,7 @@ Let $0 < p \leq 1$. A [[random variable]] $X$ has the geometric distribution wit
 
 **Parameters:** $0 < p \leq 1$
 **[[probability mass function]]:** $$p_X(k) = p(1-p)^{k-1}$$ $$k=1,2,...$$
+**[[cumulative distribution function]]:** $$1-(1-p)^k$$
 **[[expectation]]:** $$\frac{1}{p}$$
 **[[variance]]:** $$\frac{1-p}{p^2}$$
 
