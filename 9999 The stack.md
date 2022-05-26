@@ -30,6 +30,7 @@ Where longer-term things are linked to before finding their home. For notes that
 - computer vision resources: https://github.com/jbhuang0604/awesome-computer-vision#books
 - long short-term memory (LSTM): https://en.wikipedia.org/wiki/Long_short-term_memory
 - knowledge graph
+- 
 - nishimoto "current biology" 2011, video features on prediction of fmri
 - fNIRS (imaging modality)
 		- Joseph P. Culver

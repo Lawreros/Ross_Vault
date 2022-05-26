@@ -58,7 +58,15 @@ Algorithms that can deal with partially labeled training data, usually a lot of 
 - [[recall]]
 - [[ROC curve]]
 - [[AUC]]
+- cross entropy loss
 
+### Common Datasets:
+- CIFAR
+- MNIST
+
+### Common Models:
+- ResNet
+- VGG
 
 ## Topics to Investigate
 - Linear Discriminant Analysis
