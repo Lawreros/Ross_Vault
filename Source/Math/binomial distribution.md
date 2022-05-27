@@ -18,5 +18,6 @@ $$F_X(k) = \sum_{i=0}^k {n \choose i}p^i(1-p)^{n-1}$$
 - **[[normal distribution]] approximation of the binomial distribution using [[central limit theorem]]:** Suppose that $S_n \sim Bin(n,p)$, $n$ is large, and $p$ is not too close to 0 or 1. Then:
 $$P(a \leq \frac{S_n -np}{\sqrt{np(1-p)}}<b)$$
 is close to $\phi(b) - \phi(a)$ (see [[standard normal distribution]]). As a rule of thumb, this approximation is good if $np(1-p)>10$
+- **Error bound in the [[normal distribution]]:** Let $S_n \sim Bin(n,p)$. Then for all values of $x$ we have: $$|P(\frac{S_n-np}{\sqrt{np(1-p)}} \leq x)- \phi(x)| \leq \frac{3}{\sqrt{np(1-p)}}$$
 
 ###### Additional Thoughts:

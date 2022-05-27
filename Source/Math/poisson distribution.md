@@ -20,5 +20,6 @@ $$P(k = 3) = \frac{2^3}{3!}e^{-2} = 0.18045$$
 
 ###### Properties:
 - It is assumed that the occurrence of one event does not affect the probability that a second event will occur.
+- **Poisson approximation for counting rare events:** Assume that the random variable $X$ counts the occurrences of rare events that are not strongly dependent on each other. Then the distribution of $X$ can be approximated with a $Poisson(\lambda)$ distribution for $\lambda = E[X]$. That is: $$P(X=k) \approx e^{-\lambda}\frac{\lambda^k}{k!}$$ for $k \in \{0,1,2,...\}$
 
 ###### Additional Thoughts:
