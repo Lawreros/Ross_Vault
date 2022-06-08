@@ -8,6 +8,8 @@ Associated Tags:
 - [[online learning]]
 - [[instance-based learning]]
 - [[model-based learning]]
+- [[linear classifier]]
+- [[ensemble learning]]
 
 
 #### Supervised Learning ([[supervised learning]])
@@ -15,17 +17,18 @@ In supervised learning, the training data you feed the algorithm includes the de
 - [[k-nearest neighbors]]
 - [[linear regression]]
 - logistic regression
-- support vector machines (SVMs)
-		- Linear SVM Classification
+- [[support vector machine]] (SVMs)
+		- Linear SVM Classification [[linear SVM]]
+			- Hard Margin Classification
 			- Soft Margin Classification
-		- Nonlinear SVM Classification
+		- Nonlinear SVM Classification [[nonlinear SVM]]
 			- Polynomial Kernel
 			- Adding Similarity Features
 			- Gaussian RBF Kernel
 			- Computational Complexity
 		- SVM Regression
 - [[decision tree]]
-- random forest
+- [[random forest]]
 - neural networks
 
 #### Unsupervised Learning ([[unsupervised learning]])

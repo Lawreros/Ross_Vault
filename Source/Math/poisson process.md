@@ -10,6 +10,7 @@ The Poisson process with intensity, or rate, $\lambda >0$ is a collection of ran
 - If $I_1,I_2,...,I_n$ are nonoverlapping intervals in $[0,\infty)$ then the [[random variable]]s $N(I_1), N(I_2),...,N(I_n)$ are mutually [[independent]].
 
 ###### Properties:
+- The poisson process is a [[stochastic process]]
 - The [[gamma distribution]], [[poisson distribution]], and [[exponential distribution]] models are all different aspects of the same process - the Poisson process.
 		- Poisson distribution is used to model the number of events in the future
 		- Exponential distribution is used to predict the wait time until the very first event occurs
