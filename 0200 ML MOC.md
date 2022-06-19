@@ -69,7 +69,11 @@ Algorithms that can deal with partially labeled training data, usually a lot of 
 
 ### Common Models:
 - ResNet
+		- https://towardsdatascience.com/introduction-to-resnets-c0a830a288a4
+		- https://towardsdatascience.com/understanding-and-visualizing-resnets-442284831be8
 - VGG
+- UNet: https://analyticsindiamag.com/my-experiment-with-unet-building-an-image-segmentation-model/
+		- Good example: https://www.kaggle.com/code/mateuszbuda/brain-segmentation-pytorch
 
 ## Topics to Investigate
 - Linear Discriminant Analysis
