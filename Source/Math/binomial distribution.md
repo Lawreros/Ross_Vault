@@ -10,7 +10,7 @@ Let $n$ be a positive integer and $0 \leq p \leq 1$. A [[random variable]] $X$ h
 **Parameters:** $$0 \leq p \leq 1$$ $$n\geq 1$$
 **[[probability mass function]]:** $$p_X(k) = {n \choose k}p^k(1-p)^{n-k}$$ $$0 \leq k \leq n$$
 **[[cumulative distribution function]]:**
-$$F_X(k) = \sum_{i=0}^k {n \choose i}p^i(1-p)^{n-1}$$
+$$F_X(k) = \sum_{i=0}^k {n \choose i}p^i(1-p)^{n-i}$$
 **[[expectation]]:** $$np$$
 **[[variance]]:** $$np(1-p)$$
 
