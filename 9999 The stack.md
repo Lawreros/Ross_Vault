@@ -31,6 +31,7 @@ Where longer-term things are linked to before finding their home. For notes that
 - long short-term memory (LSTM): https://en.wikipedia.org/wiki/Long_short-term_memory
 - knowledge graph
 - https://ai.googleblog.com/2021/07/high-fidelity-image-generation-using.html
+- https://en.wikipedia.org/wiki/Latent_variable_model#:~:text=A%20latent%20variable%20model%20is,a%20set%20of%20latent%20variables.
 - nishimoto "current biology" 2011, video features on prediction of fmri
 - fNIRS (imaging modality)
 		- Joseph P. Culver
