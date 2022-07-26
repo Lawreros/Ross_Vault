@@ -1,7 +1,25 @@
 # PHSR_v2
-Brief Summary
 
-Associated Tags: 
+TODO:
+[] Update coding comparison to account for the new formatting
+[] Include code to get alignment time "iPhone reads ???" for affect alignment
+[] Incorporate RR-interval preprocessing
+	- Add check for significant breaks in time stamps for data
+	- 
+[] Incorporate ECG preprocessing
+	- Check for discrepancies between the iPhone timestamps and the polar strap timestamps
+	- Add check for significant breaks in time stamps for data
+	- Replace recordings with NaNs when obvious errors/discrete shift is detected
+[] Align ECG signal to the RR-interval data
+	- This should be done post-processing, as to minimize the issues with alignment
+[] Go through collected recordings to get "approved" versions of data
+	- Also have "corrected" files which cut out the discrete shifts
+	- 
+[] Expand documentation on PSHR `README.md` for a better tutorial
+	- Do I include snippets into what each function does?
+
+
+# Coding
 
 #### Useful Links
 https://learn.adafruit.com/build-a-bluetooth-app-using-swift-5?view=all
@@ -22,7 +40,12 @@ https://learn.adafruit.com/build-a-bluetooth-app-using-swift-5/communication
 #### Project Train of thought:
 - So, thanks to the polarstrap github page with all of the information that was needed, things are actually working now. However, I need to check further
 
-## Topics to Investigate
-This is where you make a bunch of empty links for things that you have heard about but haven't fully investigated
-- topic number 1
-- topic number 2
+
+# ECG
+### Notes from *ECG Signal Processing, Classification and Interpretation*:
+- 1.8) "The normal duration of the QRS complex does not exceed 0.12 seconds. The voltage usually varies between 1.5 and 2.0 mV"
+- 
+
+
+
+# RR-Interval
