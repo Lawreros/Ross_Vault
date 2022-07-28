@@ -14,7 +14,7 @@ TODO:
 	- This should be done post-processing, as to minimize the issues with alignment
 [] Go through collected recordings to get "approved" versions of data
 	- Also have "corrected" files which cut out the discrete shifts
-[] Expand documentation on PSHR `README.md` for a better tutorial
+[X] Expand documentation on PSHR `README.md` for a better tutorial
 	- Do I include snippets into what each function does?
 
 [] Change functions to work with `inputParser` in order to have default values for different variables.
