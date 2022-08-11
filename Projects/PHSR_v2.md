@@ -5,17 +5,15 @@ TODO:
 [] Include code to get alignment time "iPhone reads ???" for affect alignment
 [] Incorporate RR-interval preprocessing
 	- Add check for significant breaks in time stamps for data
-	- 
 [] Incorporate ECG preprocessing
 	- Check for discrepancies between the iPhone timestamps and the polar strap timestamps
 	- Add check for significant breaks in time stamps for data
 	- Replace recordings with NaNs when obvious errors/discrete shift is detected
 [] Align ECG signal to the RR-interval data
-	- This should be done post-processing, as to minimize the issues with alignment
-[] Go through collected recordings to get "approved" versions of data
-	- Also have "corrected" files which cut out the discrete shifts
+	[] This should be done post-processing, as to minimize the issues with alignment
+[X] Go through collected recordings to get "approved" versions of data
 [X] Expand documentation on PSHR `README.md` for a better tutorial
-	- Do I include snippets into what each function does?
+	[X] Do I include snippets into what each function does?
 
 [] Change functions to work with `inputParser` in order to have default values for different variables.
 
