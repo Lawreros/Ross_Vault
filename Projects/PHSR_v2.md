@@ -1,8 +1,8 @@
 # PHSR_v2
 
 TODO:
-[] Update coding comparison to account for the new formatting
-[] Include code to get alignment time "iPhone reads ???" for affect alignment
+[X] Update coding comparison to account for the new formatting
+[X] Include code to get alignment time "iPhone reads ???" for affect alignment
 [] Incorporate RR-interval preprocessing
 	- Add check for significant breaks in time stamps for data
 [] Incorporate ECG preprocessing

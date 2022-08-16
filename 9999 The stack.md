@@ -33,6 +33,7 @@ Where longer-term things are linked to before finding their home. For notes that
 - Fisher z transformation (the z thing from fMRI correlations): https://stats.stackexchange.com/questions/420142/why-is-fisher-transformation-necessary
 - https://ai.googleblog.com/2021/07/high-fidelity-image-generation-using.html
 - https://en.wikipedia.org/wiki/Latent_variable_model#:~:text=A%20latent%20variable%20model%20is,a%20set%20of%20latent%20variables.
+- skip connections in CNNs: https://theaisummer.com/skip-connections/
 - nishimoto "current biology" 2011, video features on prediction of fmri
 - fNIRS (imaging modality)
 		- Joseph P. Culver
