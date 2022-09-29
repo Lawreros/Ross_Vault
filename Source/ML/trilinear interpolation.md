@@ -1,7 +1,7 @@
 name : trilinear interpolation
 tags : 
 backlinks : 
-source : 
+source : https://en.wikipedia.org/wiki/Trilinear_interpolation
 
 ###### Content:
 A method for interpolating the value of a point between known points in 3D space.

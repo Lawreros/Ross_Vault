@@ -1138,7 +1138,7 @@ public:
 };
 
 int main() {
-	Frog fron("Freddy");
+	Frog frog("Freddy");
 	frog.info();
 }
 ```

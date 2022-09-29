@@ -23,6 +23,12 @@ Where longer-term things are linked to before finding their home. For notes that
 
 --- 
 #### To Do
+- UMAP: https://umap-learn.readthedocs.io/en/latest/
+- https://openai.com/blog/clip/
+- spectral embedding
+- GMRA (https://arxiv.org/pdf/1611.01179.pdf)
+- how to grammatically generate sample datasets 
+- Regression types: https://www.upgrad.com/blog/types-of-regression-models-in-machine-learning/
 - discrete wavelet transform (https://en.wikipedia.org/wiki/Discrete_wavelet_transform)
 - Discrete cosine transform (https://en.wikipedia.org/wiki/Discrete_cosine_transform)
 - Hidden Markov model (https://en.wikipedia.org/wiki/Hidden_Markov_model)
@@ -34,10 +40,4 @@ Where longer-term things are linked to before finding their home. For notes that
 - https://ai.googleblog.com/2021/07/high-fidelity-image-generation-using.html
 - https://en.wikipedia.org/wiki/Latent_variable_model#:~:text=A%20latent%20variable%20model%20is,a%20set%20of%20latent%20variables.
 - skip connections in CNNs: https://theaisummer.com/skip-connections/
-- nishimoto "current biology" 2011, video features on prediction of fmri
-- fNIRS (imaging modality)
-		- Joseph P. Culver
-		- Jack L. Gallant
-- Neo-natal imaging
-- Lilly Qiu, Manganese enhanced imaging (sex difference in neonates)
-- (youtube, Gilbert Strang) Matrix Methods in Data Analysis, Signal Processing, and Machine Learning, Spring 2018
+- HDBSCAN: https://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html
