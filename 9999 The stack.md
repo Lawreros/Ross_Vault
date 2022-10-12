@@ -25,7 +25,14 @@ Where longer-term things are linked to before finding their home. For notes that
 #### To Do
 - UMAP: https://umap-learn.readthedocs.io/en/latest/
 - https://openai.com/blog/clip/
-- spectral embedding
+- embedding
+- latent space
+- isomap embedding
+	- https://blog.paperspace.com/dimension-reduction-with-isomap/
+- spectral embedding 
+	- https://medium.com/mlearning-ai/demystifying-spectral-embedding-b2368bba580#:~:text=Spectral%20Embedding%20is%20a%20technique,also%20referred%20to%20as%20Isomap
+- manifolds
+	- https://bjlkeng.github.io/posts/manifolds/
 - GMRA (https://arxiv.org/pdf/1611.01179.pdf)
 - how to grammatically generate sample datasets 
 - Regression types: https://www.upgrad.com/blog/types-of-regression-models-in-machine-learning/
