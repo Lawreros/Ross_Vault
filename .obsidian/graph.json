@@ -29,7 +29,7 @@
       }
     },
     {
-      "query": "path:Literature",
+      "query": "path:Source/ML",
       "color": {
         "a": 1,
         "rgb": 5399264
@@ -40,12 +40,12 @@
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": false,
-  "centerStrength": 0.342696629213483,
+  "lineSizeMultiplier": 1.06324786324786,
+  "collapse-forces": true,
+  "centerStrength": 0.354700854700855,
   "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.27040089082386704,
+  "linkStrength": 0.829059829059829,
+  "linkDistance": 149,
+  "scale": 0.215007579045862,
   "close": false
 }
