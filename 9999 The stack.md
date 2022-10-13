@@ -48,3 +48,12 @@ Where longer-term things are linked to before finding their home. For notes that
 - https://en.wikipedia.org/wiki/Latent_variable_model#:~:text=A%20latent%20variable%20model%20is,a%20set%20of%20latent%20variables.
 - skip connections in CNNs: https://theaisummer.com/skip-connections/
 - HDBSCAN: https://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html
+- Procrustes problem
+* Spearman's rank correlation
+* Parsimonious interpretation
+* Bayes' Risk
+* Rho-correlate
+* latent position
+* Real Analysis
+* Nusiance Regression
+* sklearn
