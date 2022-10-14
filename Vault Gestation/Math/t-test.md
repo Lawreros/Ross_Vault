@@ -18,6 +18,14 @@ The t-test produces two values as its output: the [[t-value]] and [[degrees of f
 
 The [[t-value]] and [[degrees of freedom]] are used in conjunction with a table of values from the [[Student's t-distribution]] to get a [[p-value]] (which depends on whether you are performing [[one-tailed t-test]] or [[two-tailed t-test]]) for [[statistical significance]].
 
+##### Conceptual Explanation?
+In order to understand what the results of a t-test are actually telling you, here is a general explanation:
+- Imagine two samples of values, $X$ and $Y$, each having a [[normal distribution]]. $\bar X - \bar Y = r$
+- $Q = (X-Y)$ also results in a normal distribution
+- Because $Q$ is normally distributed, it can be used to calculated the percentile of the value $r$. If you standardize $Q$ in some way, this relation ship gives you the probability that the null hypothesis ($\bar X_0- \bar Y_0 = 0$, where $X_0$ is the population $X$ is a sample of, same for $Y_0$) is correct given the observed value $r$
+- The t-value equations unique to each type to t-test and the degrees of freedom are effectively the parameters fed into the student's t-distribution to do this probability calculation
+- Confidence intervals come from $Q$. For example, the 95% confidence interval determines that there is a 95% chance the $(\bar X_0-\bar Y_0)$ falls somewhere in range $[a,b]$
+
 ##### **What type of t-test should I use?**
 When choosing a t-test, you will need to consider two things: whether the groups being compared come from a single population or two different populations, and whether you want to test the difference in a specific direction.
 **One-sample, two-sample, or paired t-test?:**

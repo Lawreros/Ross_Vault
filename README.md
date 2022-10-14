@@ -1,14 +1,38 @@
 # Ross_Vault
-Backup of Obsidian Vault, feel free to copy. Goal is to keep updating this repository regularly in conjunction with new material as I learn it.
+Backup of my personal Obsidian Vault, feel free to copy. Goal is to keep updating this repository regularly in conjunction with new material as I learn it. 
 
+### Contents
 This is an online backup of my Obsidian notes. Topics include:
 - Linear Algebra/Matrix Analysis
 - Image analysis techniques
+- Machine Learning
 - Medical Imaging
-- Rust
 - Probability
 - Statistics
 
+### Note Addition Pipeline
+The general flow of the ingestion of information into the notes is:
+1. Discover new concept or term. Either add it to `9999 The Stack` for investigation later or immediately research the topic
+2. After sufficient research, deconstruct the concept into modular parts/concepts to create notes from. Notes in the process of being completed are placed into `Vault Gestation` to be worked on later. Often during research new concepts are found which get added to `9999 The Stack`
+3. Push new notes to this repository as a backup
+
+```mermaid
+flowchart LR
+
+id1["New Concept"] --> id2["Add to The Stack"] <--> idb["Research"]
+id1 --> idb
+subgraph DECONSTRUCT
+direction LR
+	idb --> id4["Note"]
+	idb --> id5["Note"]
+	idb --> id6["Note"]
+end
+
+id4 --> ide["git Repo"]
+id5 --> ide
+id6 --> ide
+
+```
 
 ### Template Style Theory:
 This is where I outline the reasoning/protocol for how I construct my notes.
@@ -30,5 +54,5 @@ This is where I outline the reasoning/protocol for how I construct my notes.
 **[[manuscript_format]]:**
 
 
-
-**[[moc_format]]**
+**[[moc_format]]**:
+Called the "map of content", these act as hubs for specific fields of notes. [CURRENTLY UNDER DEVELOPMENT]
