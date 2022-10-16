@@ -17,7 +17,7 @@ There are many boosting method available:
 
 ###### Properties:
 - One disadvantage of boosting is that it is sensitive to outliers since every classifier is obliged to fix the errors in the predecessors. Thus, the method is too dependent on outliers.
-- Another disadvantage is the method is almost impossible to scale up. This is due to every estimator basing its correctness on the previous predictions, thus making the procedure difficult to streamline.
+- Another disadvantage is the method is almost impossible to scale up. This is due to every [[estimator]] basing its correctness on the previous predictions, thus making the procedure difficult to streamline.
 - Boosting can be used with [[regression tree]]s. During boosting, a sequence of trees are trained and successive trees are cultivated on the residuals of preceding trees.
 
 ###### Additional Thoughts:

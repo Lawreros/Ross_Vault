@@ -4,7 +4,7 @@ backlinks :
 source : 
 
 ###### Content:
-The RMSE of an estimator $\theta$ with respect to the predicted parameter $\hat{\theta}$ is defined as the square root of the [[mean squared error]]:
+The RMSE of an [[estimator]] $\theta$ with respect to the predicted parameter $\hat{\theta}$ is defined as the square root of the [[mean squared error]]:
 
 $$RMSD(\hat{\theta}) = \sqrt{MSE(\hat{\theta})}$$
 
