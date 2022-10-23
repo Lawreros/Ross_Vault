@@ -3,9 +3,6 @@ This is where I'll keep instructions/notes on the steps I've taken when building
 
 ### Running Locally
 
-
-
-
 - Took a bit to get the website working for building locally. Turns out that the ubuntu update I had resulted in my `ruby2.7` version disappearing... 
 	- Okay, this was a whole series of commands that needed to occur:
 	- install and update `bundler` (may not have done anything): https://stackoverflow.com/questions/64867127/how-to-repair-jekyll-and-bundle-installation
@@ -15,8 +12,15 @@ This is where I'll keep instructions/notes on the steps I've taken when building
 
 
 ### Design Ethos
-Where to put the rationale behind the organization of the website.
-
+The purpose of this website is two-fold:
+1. Advertise the work that I've done
+2. Keep me thinking about how to present my work to others (documentation, user experience, etc.)
+With that in mind the format and design for each tab/page is pretty simple:
+- `About Me`: A quick summary of who I am and  what I am interested in
+- `CV`: A copy of my resume/cv for easy download by others
+- `Publications`: Links and summaries for my different publications
+- `Talks`: Links to any posters/videos that I made for my work
+- `Blog Posts`: Monthly updates on the work that I've been doing. This also serves as a hook to keep me coming back and making changes to my website.
 
 ### Major Changes
 All major changes will to formatting will have the `//Note:` comment put next to them with a description as to what this addition/change does.
@@ -26,7 +30,7 @@ All major changes will to formatting will have the `//Note:` comment put next to
 Which files in the sea of `.css` and markdown are responsible for different formatting and were specifically in those files to look.
 
 #### Content
-
+`images/custom/`: The location of all images that were not part of the default github pages set. This just prevents me from breaking anything before I get a better understanding of what all the different images are for.
 
 #### Formatting
 `_sass/_base.scss`: Contains the variable settings for the base html stuff. This is where the margins are defined for fundamental things like `h2` or `<p>` or `<img>`

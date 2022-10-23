@@ -48,7 +48,10 @@ Where longer-term things are linked to before finding their home. For notes that
 	- http://seba1511.net/tutorials/beginner/deep_learning_60min_blitz.html
 	- https://pytorch.org/docs/stable/notes/modules.html#:~:text=PyTorch%20uses%20modules%20to%20represent,%2C%20multi%2Dlayer%20neural%20networks.
 	- https://pytorch.org/tutorials/beginner/nn_tutorial.html
-
+- https://realpython.com/python-gui-tkinter/
+- https://pytorch.org/tutorials/intermediate/tensorboard_tutorial.html
+- Python multiprocessing https://www.youtube.com/watch?v=X7vBbelRXn0&list=WL&index=54
+- pickle in python
 
 #### Medical:
 * Nusiance Regression
