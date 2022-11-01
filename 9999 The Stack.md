@@ -2,7 +2,7 @@
 Where longer-term things are linked to before finding their home. For notes that take more than one sitting to write, like publications.
 
 #### In Progress:
-
+- [[sparse coding]]: http://ufldl.stanford.edu/tutorial/unsupervised/SparseCoding/#:~:text=Sparse%20coding%20is%20a%20class,1ai%CF%95i
 
 #### Machine Learning:
 - UMAP: https://umap-learn.readthedocs.io/en/latest/

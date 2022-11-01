@@ -30,9 +30,12 @@ This note is where I'll store ideas about future personal projects while expandi
 	- Found a version of it that is easy for download and doesn't require the approval process. Unfortunately the dataset seems to be pngs, which kind of sucks but might be acceptable for the first tests.  https://academictorrents.com/details/d0b7b7ae40610bbeaea385aeb51658f527c86a16
 
 ### Interesting Datasets:
+
+There's a giant list of datasets here: https://www.datasetlist.com/
+
 ##### Liver Tumor Segmentation:
 - 130 CT scans for segmentation of the liver as well as tumor lesions (saved across both parts)
-- Saved as nifiti files, with the segmentation files having an intensity value of 1 for th eliver and 2 for tumor
+- Saved as nifiti files, with the segmentation files having an intensity value of 1 for the liver and 2 for tumor
 - LINK (part 1): https://www.kaggle.com/datasets/andrewmvd/liver-tumor-segmentation/versions/5?resource=download
 - LINK (part 2): https://www.kaggle.com/datasets/andrewmvd/liver-tumor-segmentation-part-2
 
