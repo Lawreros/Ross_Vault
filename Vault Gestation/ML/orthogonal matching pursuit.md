@@ -1,7 +1,7 @@
 name : orthogonal matching pursuit
 tags : 
 backlinks : 
-source : 
+source : #sparse 
 
 ###### Content:
 
@@ -17,6 +17,7 @@ for $i=1,...,k$ do
 		c) Update solution: $\hat x_{\mathcal{S}} = \underset{x_\mathcal{S}}{argmin}||A_\mathcal{S}\hat x_\mathcal{S} - b||_2^2$
 		d) Update residual: $r^i = b-A\hat x$
 end
+
 ---
 ###### Properties:
 Unique relationships/properties

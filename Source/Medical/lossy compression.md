@@ -1,4 +1,4 @@
-name : p-value
+name : lossy compression
 tags : 
 backlinks : 
 source : 

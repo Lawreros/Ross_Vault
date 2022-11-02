@@ -16,7 +16,7 @@ More formally, if we have data $x,z \in X$ and a map $\phi : X \rightarrow \math
 
 It can help to understand how the kernel function is equal to the dot product of the transformed vectors by considering that each coordinate of the transformed vector $\phi(x)$ is just some function of the coordinates of the corresponding lower dimensional vector $x$. *See equation 5-9 form towardsdatascience link*
 
-The ultimate benefit of th ekernel trick is that the [[objective function]] we are optimizing to fit the higher dimensional decision boundary only includees the dot product of the transformed feature vectors. Therefore, we can just substitute these [[dot product]] terms witht he kernel function, and we done't even need to know anything about $\phi(x)$. *See towardsdatascience link at the bottom and wikipedia article for SVM*
+The ultimate benefit of the kernel trick is that the [[objective function]] we are optimizing to fit the higher dimensional decision boundary only includees the dot product of the transformed feature vectors. Therefore, we can just substitute these [[dot product]] terms with the kernel function, and we done't even need to know anything about $\phi(x)$. *See towardsdatascience link at the bottom and wikipedia article for SVM*
 
 ###### Properties:
 - There are a multitude of different nonlinear kernels that can be used with the kernel trick, with the best kernel depending on the input data.

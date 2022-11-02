@@ -1,30 +1,34 @@
 # PHSR_v2
 
 TODO:
-[X] Update coding comparison to account for the new formatting
-[X] Include code to get alignment time "iPhone reads ???" for affect alignment
-[] Incorporate RR-interval preprocessing
-	- Add check for significant breaks in time stamps for data
-[] Incorporate ECG preprocessing
-	- Check for discrepancies between the iPhone timestamps and the polar strap timestamps
-	- Add check for significant breaks in time stamps for data
-	- Replace recordings with NaNs when obvious errors/discrete shift is detected
-[] Align ECG signal to the RR-interval data
-	[] This should be done post-processing, as to minimize the issues with alignment
-[X] Go through collected recordings to get "approved" versions of data
-[X] Expand documentation on PSHR `README.md` for a better tutorial
-	[X] Do I include snippets into what each function does?
+- [ ] RR-interval preprocessing:
+	- [ ] Investigate variance in transmission of data packets and the catch-up quick transmission. Specifically how to adjust the RR-intervals closer to "true time"
+- [ ] ECG preprocessing:
+	- [ ] Find list of simple preprocessing techniques
+	- [ ] Replace recordings with NaNs when obvious errors/discrete shift is detected
+	- [ ] Check for discrepancies between the iPhone timestamps and the polar strap timestamps
+- [ ] Align ECG signal to RR-interval data
+	- [ ] Add check for significant differences between sets of time stamps
+	- [ ] Find good set of metrics for quantifying alignment
+- [ ] Train/Test split class
+	- [ ] write function out as class for future testing with other predictive models
+- [ ] Affect analysis:
+	- [ ] Add support for keeping unique affect labels (i.e. not just `problematic` vs `non-problematic`)
+	- [ ] Add ability for multiple columns of affect flags
 
-[] Change functions to work with `inputParser` in order to have default values for different variables.
+- [ ] Documentation:
+	- [ ] Downloading and use of Xcode
+	- [ ] Submission of new version of the iPhone app to the Apple Store for use with Testflight
+	- [ ] PSHR_pipeline `README.md`
 
+- [ ] iPhone:
+	- [ ] Add check to the app which restarts ECG capture whenever it switches off while HR is still being collected (except by button press)
 
 # Coding
 
 #### Useful Links
 https://learn.adafruit.com/build-a-bluetooth-app-using-swift-5?view=all
-
 https://github.com/pareeknikhil/biofeedback/blob/master/Polar%20Device%20Data%20Stream/ECG/main.py
-
 https://towardsdatascience.com/creating-a-data-stream-with-polar-device-a5c93c9ccc59
 
 #### Things about writing bytearrays to the ecg characteristic
@@ -43,8 +47,6 @@ https://learn.adafruit.com/build-a-bluetooth-app-using-swift-5/communication
 # ECG
 ### Notes from *ECG Signal Processing, Classification and Interpretation*:
 - 1.8) "The normal duration of the QRS complex does not exceed 0.12 seconds. The voltage usually varies between 1.5 and 2.0 mV"
-- 
-
 
 
 # RR-Interval
