@@ -23,6 +23,9 @@ TODO:
 
 - [ ] iPhone:
 	- [ ] Add check to the app which restarts ECG capture whenever it switches off while HR is still being collected (except by button press)
+	- [ ] Add sound effects for the disconnection of RR-interval collection
+	- [ ] Add sound effects for the disconnection of ECG collection
+	- [ ] Have sounds repeated for an extended amount of time
 
 # Coding
 
