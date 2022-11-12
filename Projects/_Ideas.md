@@ -2,6 +2,37 @@
 This note is where I'll store ideas about future personal projects while expanding my skillset
 
 ## Segmentation Practice:
+#### 3D $U^2$-Net; A 3D Universal U-Net for Multi-Domain Medical Image Segmentation
+- https://paperswithcode.com/paper/3d-u2-net-a-3d-universal-u-net-for-multi
+##### Why do this project?
+- Good refresher on U-Net as well as 3D segmentation
+- Covers combining different medical modalities
+- Low resource requirements
+- Good practice for UNETR
+
+##### Dataset:
+- Medical Segmentation Decathlon challenge: https://decathlon.grand-challenge.org/
+	- Collection of MRI and CT data for different 
+	- Free to download
+
+#### UNETR: Transformers for 3D Medical Image Segmentation
+- https://paperswithcode.com/paper/unetr-transformers-for-3d-medical-image
+##### Why do this project?
+- Teaches about segmentation thought the use of a whole bunch of different ML layer types and architectures
+	- Deconvolutional layers https://towardsdatascience.com/types-of-convolutions-in-deep-learning-717013397f4d
+	- embedding layers and linear projections
+	- normalization
+	- etc
+- Is legitimately impressive
+
+##### Dataset:
+- Beyond the Cranial Vault (BTCV) https://www.synapse.org/#!Synapse:syn3193805/wiki/217753
+	- Collection of abdominal CT images with different organs segmented
+Medical Segmentation Decathlon challenge: https://decathlon.grand-challenge.org/
+	- Collection of MRI and CT data for different 
+	- Free to download
+
+
 #### 3D MRI brain tumor segmentation using autoencoder regularization:
 - https://paperswithcode.com/paper/3d-mri-brain-tumor-segmentation-using
 ##### Why do this project?
@@ -44,8 +75,10 @@ There's a giant list of datasets here: https://www.datasetlist.com/
 - Big collection of MRI data for control and autistic individuals
 - LINK: http://fcon_1000.projects.nitrc.org/indi/abide/abide_II.html
 
-##### Dataset:
-
+##### Pancreas:
+- Paper: https://link.springer.com/chapter/10.1007/978-3-319-24553-9_68
+- Download: https://wiki.cancerimagingarchive.net/display/Public/Pancreas-CT#225140407e328bff74a84d4885648246b4de92a4
+- 82 abdominal 3D CT scans with and without cancer lesions/major abdominal pathologies
 
 ---
 
