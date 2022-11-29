@@ -5,10 +5,10 @@ Where longer-term things are linked to before finding their home. For notes that
 - [[sparse coding]]: http://ufldl.stanford.edu/tutorial/unsupervised/SparseCoding/#:~:text=Sparse%20coding%20is%20a%20class,1ai%CF%95i
 
 #### Machine Learning:
-- fully convolutional network
 - estimator: https://towardsdatascience.com/estimators-loss-functions-optimizers-core-of-ml-algorithms-d603f6b0161a
 - UMAP: https://umap-learn.readthedocs.io/en/latest/
-- [[U-Net]] model
+- instance segmentation
+- semantic segmentation
 - https://openai.com/blog/clip/
 - how to grammatically generate sample datasets 
 - GMRA (https://arxiv.org/pdf/1611.01179.pdf)
