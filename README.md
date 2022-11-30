@@ -9,6 +9,7 @@ This is an online backup of my Obsidian notes. Topics include:
 - Medical Imaging
 - Probability
 - Statistics
+- [[boosting]]
 
 ### Note Addition Pipeline
 The general flow of the ingestion of information into the notes is:
