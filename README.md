@@ -9,7 +9,6 @@ This is an online backup of my Obsidian notes. Topics include:
 - Medical Imaging
 - Probability
 - Statistics
-- [[boosting]]
 
 ### Note Addition Pipeline
 The general flow of the ingestion of information into the notes is:
@@ -53,7 +52,14 @@ This is where I outline the reasoning/protocol for how I construct my notes.
 - At the top of each weekly entry, there should be a "Weekly TODO" which contains a list of things I would like to accomplish this week. They can be different from the daily TODO entries, as what needs to be done from one day to the next may change.
 
 **[[manuscript_format]]:**
-
+The manuscript format will include:
+- All relevant citation information at the top of the note
+- A full copy of the `Abstract`
+- A list of `Important Concepts` (ideally in the form of links to different notes) that are not exclusive to this manuscript
+- The `Data Type`, or what different datasets/sources were used by the authors of this manuscript. Ideally their locations and descriptions are made into notes
+- A `Summary` of the methods and important concepts of the paper
+- A `Results` section summarizing the results of the experiments
+- A `Discussion` section containing any important/interesting takeaways from the manuscript by the author or yourself
 
 **[[moc_format]]**:
 Called the "map of content", these act as hubs for specific fields of notes. [CURRENTLY UNDER DEVELOPMENT]

@@ -44,6 +44,7 @@ Where longer-term things are linked to before finding their home. For notes that
 * Real Analysis
 
 #### Coding:
+- MLOps
 * sklearn
 - Pytorch deep-dive
 	- Understand what a tensor is: https://medium.com/@quantumsteinke/whats-the-difference-between-a-matrix-and-a-tensor-4505fbdc576c

@@ -89,4 +89,4 @@ Where $w_1, w_2$ and $w_3$ denote the weights of the three subsequent layers aft
 - Decent introduction to super-resolution (plenty of different terminology to investigate)
 - Why only have 1 iteration of LISTA? Doesn't that imply it isn't important
 - Good point that the loss in resolution between LR and HR is practically linear
-- Also interesting the idea that LR and HR have the same sparse vector
+- Also interesting the idea that LR and HR have the same [[sparse vector]]

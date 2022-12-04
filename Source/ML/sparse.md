@@ -4,7 +4,7 @@ backlinks :
 source : 
 
 ###### Content:
-A solution to a system of linear equations with significantly more 0 values than nonzero. With respect to vectors, a sparse vector $x \in \mathbb{R}^n$ would have $k<<n$ nonzero entries to be considered sparse.
+A solution to a system of linear equations with significantly more 0 values than nonzero. With respect to vectors, a [[sparse vector]] $x \in \mathbb{R}^n$ would have $k<<n$ nonzero entries to be considered sparse.
 
 ###### Properties:
 
