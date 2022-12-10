@@ -9,6 +9,7 @@ Where longer-term things are linked to before finding their home. For notes that
 - UMAP: https://umap-learn.readthedocs.io/en/latest/
 - instance segmentation
 - semantic segmentation
+- reinforcement learning
 - https://openai.com/blog/clip/
 - how to grammatically generate sample datasets 
 - GMRA (https://arxiv.org/pdf/1611.01179.pdf)
