@@ -66,7 +66,7 @@ The SCN model can only be trained to perform image SR by a particular scaling fa
 |     |     |     |     |
 Where the values for $k_1,k_2, k_3,k_4$ are the same for each of the 9 kernels. If you were to do this for four different 2x2 filters ($K_1,K_2,K_3,K_4 \in M_4(\mathbb{R})$), you would have 36 unique filters. However, since you only have four 2x2 filters worth of weights to adjust (16 parameters total), the calculation requirement to training are greatly reduced ($36*9*9 = 2916$).
 - They also use filters similar to the [[Haar filter]]s for these 4 filters
-- Similarly, the patch combination layer $G$ is also split into these fixed layers which align the pixels in overlapping patches (effectively accounting for and undoing the process done in $H$) and applying a 1D convolutional layer for a weighted average of all overlapping pixels.
+- Similarly, the patch combination layer $G$ is also split into these fixed layers which align the pixels in overlapping patches (effectively accounting for and undoing the process done in $H$) and applying a 1D [[convolutional layer]] for a weighted average of all overlapping pixels.
 - The authors of the paper use the prior domain knowledge about sparsity and [[iterative soft thresholding algorithm (ISTA)]] in order to calculate the optimal starting weights to reduce training time.
 $$w_1=C\cdot D_y^T$$$$w_2=I-D_y^TD_y$$$$w_3=(CL)^{-1}D_x$$
 Where $w_1, w_2$ and $w_3$ denote the weights of the three subsequent layers after $H$ (in the gray boxes).
