@@ -29,7 +29,8 @@ In supervised learning, the training data you feed the algorithm includes the de
 		- SVM Regression
 - [[decision tree]]
 - [[random forest]]
-- neural networks
+- [[neural network]]s
+- [[deep neural network]]s
 
 #### Unsupervised Learning ([[unsupervised learning]])
 In unsupervised learning, the training data is unlabeled, causing the system to try a learn without a teacher.
@@ -61,7 +62,9 @@ Algorithms that can deal with partially labeled training data, usually a lot of 
 - [[recall]]
 - [[ROC curve]]
 - [[AUC]]
-- cross entropy loss
+- [[cross-entropy loss]]
+- [[Peak signal-to-noise ratio (PSNR)]]
+- [[structural similarity index measure]]
 
 ### Common Datasets:
 - CIFAR

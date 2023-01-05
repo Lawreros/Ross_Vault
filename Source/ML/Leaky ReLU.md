@@ -4,7 +4,7 @@ backlinks :
 source : https://paperswithcode.com/method/leaky-relu#:~:text=Leaky%20Rectified%20Linear%20Unit%2C%20or,is%20not%20learnt%20during%20training, https://pytorch.org/docs/stable/generated/torch.nn.LeakyReLU.html
 
 ###### Content:
-The Leak Rectified Linear Unit, or Leaky ReLU, is a type of [[activation function]] based on a [[ReLU]], but with a small slope for negative values instead of a flat slope. This can be written as: $$f(x) = max(0,x)+a*max(0,x)$$ where $a\in \mathbb{R}$ is the specified slope when $x <0$.
+The Leak Rectified Linear Unit, or Leaky ReLU, is a type of [[activation function]] based on a [[ReLU]], but with a small slope for negative values instead of a flat slope. This can be written as: $$f(x) = max(0,x)+a*min(0,x)$$ where $a\in \mathbb{R}$ is the specified slope when $x <0$.
 
 ![[Pasted image 20221119202723.png]]
 

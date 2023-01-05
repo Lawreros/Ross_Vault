@@ -5,6 +5,7 @@ Where longer-term things are linked to before finding their home. For notes that
 - [[sparse coding]]: http://ufldl.stanford.edu/tutorial/unsupervised/SparseCoding/#:~:text=Sparse%20coding%20is%20a%20class,1ai%CF%95i
 
 #### Machine Learning:
+- autoencoder: https://medium.com/edureka/autoencoders-tutorial-cfdcebdefe37
 - estimator: https://towardsdatascience.com/estimators-loss-functions-optimizers-core-of-ml-algorithms-d603f6b0161a
 - UMAP: https://umap-learn.readthedocs.io/en/latest/
 - XGBoost

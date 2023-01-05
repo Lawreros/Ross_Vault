@@ -4,11 +4,14 @@ Brief Summary
 Associated Tags: 
 
 #### Random Variables
-- important sub links
+- [[normal distribution]]
+- [[binomial distribution]]
 
 
-#### Category 2
-- important sub links
+#### Statistical Methods
+- [[t-test]]
+- [[joint probability distribution]]
+- [[ANOVA]]
 
 
 ## Topics to Investigate
