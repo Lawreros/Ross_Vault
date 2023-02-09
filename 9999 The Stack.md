@@ -9,6 +9,7 @@ Where longer-term things are linked to before finding their home. For notes that
 - estimator: https://towardsdatascience.com/estimators-loss-functions-optimizers-core-of-ml-algorithms-d603f6b0161a
 - UMAP: https://umap-learn.readthedocs.io/en/latest/
 - XGBoost
+- https://towardsdatascience.com/understanding-contrastive-learning-d5b19fd96607
 - instance segmentation
 - semantic segmentation
 - [[reinforcement learning]]
