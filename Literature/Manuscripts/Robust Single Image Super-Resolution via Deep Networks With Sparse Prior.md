@@ -45,7 +45,7 @@ The SCN model can only be trained to perform image SR by a particular scaling fa
   ![[Pasted image 20221105154422.png]]
 
 - To reduce the number of parameters, the authors of the paper implement a unique way of LR patch extraction (layer $H$). Instead of having a 100 2D convolution filters with weights to train, they instead have four 5x5 filters which are shifted to 25 fixed positions each, resulting in 100 unique filters.
-  *For the sake of demonstrating this method, say we were using this method instead with a 2x2 filter $K$ and were shifting using 9 fixed positions in a 4x4 kernel. The resulting 9 filters used for convolution would look like:*
+  *For the sake of demonstrating this method, say we were using this method instead with a 2x2 [[filter]] $K$ and were shifting using 9 fixed positions in a 4x4 kernel. The resulting 9 filters used for convolution would look like:*
 | k_1 | k_2 | 0   | 0   |
 | --- | --- | --- | --- |
 | k_3 | k_4 | 0   | 0   |

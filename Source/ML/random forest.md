@@ -5,7 +5,7 @@ source : https://en.wikipedia.org/wiki/Random_forest#:~:text=Random%20forests%20
 https://www.kdnuggets.com/2017/10/random-forests-explained.html#:~:text=Random%20Forests%20are%20trained%20via,sets%2C%20and%20aggregating%20the%20predictions.
 
 ###### Content:
-Random forest is an [[ensemble learning]] method for [[classification]], [[regression]], and other tasks that operates by constructing a multitude of [[decision tree]]s at training time. Decision trees that are grown very deep tend to learn highly irregular patterns (i.e. [[overfit]]ting their data and having low bias, but very high [[variance]]). Random forests are a way of averaging multiple deep decision trees, trained on different parents of the same training set, with the goal of reducing the variance.
+Random forest is an [[ensemble learning]] method for [[classification]], [[regression]], and other tasks that operates by constructing a multitude of [[decision tree]]s at training time. Decision trees that are grown very deep tend to learn highly irregular patterns (i.e. [[overfitting]]ting their data and having low bias, but very high [[variance]]). Random forests are a way of averaging multiple deep decision trees, trained on different parents of the same training set, with the goal of reducing the variance.
 
 Random forests are trained via the [[bagging]] method, which consists of random sampling [[subset]]s of the training data, as well as "feature bagging", which takes a random subset of features from the random subset of data. In other words the training steps are:
 1. Take a random subset of data points from your training data

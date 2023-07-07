@@ -17,7 +17,7 @@ $$(1)\text{ } \mu = \frac{1}{n}\sum_i^n Z^{(i)}$$
 $$(2)\text{ } \sigma^2 = \frac{1}{n}\sum_i (Z^{(i)}-\mu)^2$$
 $$(3)\text{ } Z^{(i)}_{norm} = \frac{Z^{(i)}-\mu}{\sqrt{\sigma^2 - \epsilon}}$$
 $$(4)\text{ } \hat{Z}^{(i)} = \gamma *Z^{(i)}_{norm} + \beta$$
-The BN layer first determines the mean $\mu$ and variance $\sigma^2$ of the activation values across the patch, using $(1)$ and $(2)$. It then normalized the activation vector $Z^{(i)}$ with $(3)$. That way, each filter's output follows a standard [[normal distribution]] across the batch ($\epsilon$ is a very small constant used for numerical stability). It finally calculates the layer's output $\hat Z^{(i)}$ by applying a linear transformation with two (optionally) trainable parameter vectors $\gamma, \beta$ of size $C$ (standing for [[weight]](s), [[bias]], and $C$ = number of input channels)
+The BN layer first determines the mean $\mu$ and variance $\sigma^2$ of the activation values across the patch, using $(1)$ and $(2)$. It then normalized the activation vector $Z^{(i)}$ with $(3)$. That way, each neuron/[[filter]]'s output follows a standard [[normal distribution]] across the batch ($\epsilon$ is a very small constant used for numerical stability). It finally calculates the layer's output $\hat Z^{(i)}$ by applying a linear transformation with two (optionally) trainable parameter vectors $\gamma, \beta$ of size $C$ (standing for [[weight]](s), [[bias]], and $C$ = number of input channels)
 
 ![[Pasted image 20221125180655.png]]
 *Figure 1: Example of a 3-neuron hidden layer, with a mini-batch of size b. Each neuron follows a [[standard normal distribution]]*
