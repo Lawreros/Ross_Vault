@@ -1,6 +1,5 @@
 # Project Ideas:
 This note is where I'll store ideas about future personal projects while expanding my skillset
-
 ## Segmentation Practice:
 #### 3D $U^2$-Net; A 3D Universal U-Net for Multi-Domain Medical Image Segmentation
 - https://paperswithcode.com/paper/3d-u2-net-a-3d-universal-u-net-for-multi
