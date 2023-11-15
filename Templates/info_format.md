@@ -1,7 +1,12 @@
+---
+aliases:
+---
 name : {{title}}
 tags : 
 backlinks : 
 source : 
+
+
 
 ###### Content:
 
