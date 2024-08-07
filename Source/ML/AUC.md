@@ -1,4 +1,4 @@
-name : AUC (area under the curve)
+name : AUC (area under the [[ROC curve]])
 tags : 
 backlinks : 
 source : #HOML 

@@ -1,15 +1,16 @@
 ---
-aliases: 
+aliases:
+  - EfficientNet
 tags:
   - manuscript
 ---
-Article : {{title}}
+Article: EfficientNet. Rethinking Model Scaling for Convolutional Neural Networks
 backlinks:
 Authors: 
 Journal: 
 Date Published: 
 DOI: 
-URL: 
+URL: https://arxiv.org/pdf/1905.11946
 Other Links:
 
 ### Abstract:

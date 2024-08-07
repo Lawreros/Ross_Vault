@@ -1,4 +1,4 @@
-name : ROC curve (reciever operating characteristic curve)
+name : ROC curve (receiver operating characteristic curve)
 tags : 
 backlinks : 
 source : #HOML 
