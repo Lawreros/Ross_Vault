@@ -1,12 +1,10 @@
 ---
 aliases:
 ---
-name : {{title}}
+name : Depthwise Convolution
 tags : 
 backlinks : 
-source : 
-
-
+source : https://paperswithcode.com/method/depthwise-convolution
 
 ###### Content:
 

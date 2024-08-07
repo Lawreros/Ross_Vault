@@ -28,7 +28,7 @@ There are three types of neural network activation functions:
 	- [[sigmoid function]]
 	- [[ReLU]]
 	- [[Leaky ReLU]]
-	- [[Softmax function]]
+	- [[softmax function]]
 	- [[Swish function]]
 
 ###### Additional Thoughts:

@@ -1,12 +1,7 @@
----
-aliases:
----
-name : {{title}}
+name : one-hot encoding
 tags : 
 backlinks : 
 source : 
-
-
 
 ###### Content:
 

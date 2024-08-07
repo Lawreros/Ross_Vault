@@ -1,15 +1,16 @@
 ---
-aliases: 
+aliases:
+  - EfficientNetV2
 tags:
   - manuscript
 ---
-Article : {{title}}
+Article : EfficientNetV2. Smaller Models and Faster Training
 backlinks:
 Authors: 
 Journal: 
 Date Published: 
 DOI: 
-URL: 
+URL: https://arxiv.org/pdf/2104.00298
 Other Links:
 
 ### Abstract:

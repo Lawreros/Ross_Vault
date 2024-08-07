@@ -1,12 +1,11 @@
 ---
 aliases:
+  - FROC
 ---
-name : {{title}}
+name : free response operating characteristic
 tags : 
 backlinks : 
 source : 
-
-
 
 ###### Content:
 

@@ -1,12 +1,7 @@
----
-aliases:
----
-name : {{title}}
+name : Hausdorff distance loss
 tags : 
 backlinks : 
-source : 
-
-
+source : https://arxiv.org/pdf/1904.10030.pdf
 
 ###### Content:
 

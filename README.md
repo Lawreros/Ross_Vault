@@ -62,4 +62,5 @@ The manuscript format will include:
 - A `Discussion` section containing any important/interesting takeaways from the manuscript by the author or yourself
 
 **[[moc_format]]**:
-Called the "map of content", these act as hubs for specific fields of notes/topics. [CURRENTLY UNDER DEVELOPMENT]
+Called the "map of content", these act as hubs for specific fields of notes/topics.
+[CURRENTLY UNDER DEVELOPMENT]

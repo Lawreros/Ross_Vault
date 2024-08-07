@@ -1,15 +1,16 @@
 ---
-aliases: 
+aliases:
+  - Faster R-CNN
 tags:
   - manuscript
 ---
-Article : {{title}}
+Article : Faster R-CNN. Towards Real-Time Object Detection with Region Proposal Networks
 backlinks:
 Authors: 
 Journal: 
 Date Published: 
 DOI: 
-URL: 
+URL: https://arxiv.org/pdf/1506.01497
 Other Links:
 
 ### Abstract:

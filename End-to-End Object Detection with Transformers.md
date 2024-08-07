@@ -1,16 +1,17 @@
 ---
-aliases: 
+aliases:
+  - DETR
 tags:
   - manuscript
 ---
-Article : {{title}}
+Article : End-to-End Object Detection with Transformers
 backlinks:
 Authors: 
 Journal: 
 Date Published: 
 DOI: 
-URL: 
-Other Links:
+URL: https://arxiv.org/pdf/2005.12872
+Other Links: https://www.youtube.com/watch?v=-DTztxwUYjA
 
 ### Abstract:
 

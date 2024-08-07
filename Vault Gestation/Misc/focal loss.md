@@ -19,6 +19,6 @@ When a given example is misclassified, the $p_i$ is small, making $(1-p_t)^\gamm
 *Figure 1: Focal loss vs. [[cross-entropy loss]] with respect to the predicted classification of a single example of class $t$.*
 
 ###### Properties:
-- In practice, you can use an $\alpha$-balanced variant of focal loss that borrows from [[balanced cross-entropy loss]], yielding slightly better accuracy than the non-balanced form $$FL = -\sum_{i=1}^n \alpha_i (i-p_i)^\gamma log(p_i)$$ where $\alpha_i$ is the weighting factor for class $i$.
+- In practice, you can use an $\alpha$-balanced variant of focal loss that borrows from [[balanced cross-entropy loss]], yielding slightly better accuracy than the non-balanced form $$FL = -\sum_{i=1}^n \alpha_i (1-p_i)^\gamma log(p_i)$$ where $\alpha_i$ is the weighting factor for class $i$.
 
 ###### Additional Thoughts:
